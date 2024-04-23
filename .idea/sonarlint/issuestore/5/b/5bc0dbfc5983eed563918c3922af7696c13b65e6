@@ -1,0 +1,25 @@
+
+l	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Œ×8„àğ1
+7
+java:S1220""Move this file to a named package.8„àğ1
+q	java:S116"VRename this field "IpathFolder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ú‡?8ˆàğ1
+r	java:S116"VRename this field "OpathFolder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕìÑ½8ˆàğ1
+s
+java:S1450"VRemove the "matcher" field and declare it as a local variable in the relevant methods.(¥½³Ú8‰àğ1
+]
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(²Ú‡?8Šàğ1
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ÕìÑ½8Šàğ1
+v
+java:S5850"TGroup parts of the regex together to make the intended operator precedence explicit.(ÇÆØÌúÿÿÿÿ8Šàğ1
+j	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë´ ¤8Œàğ1
+G	java:S106."+Replace this use of System.out by a logger.(ºÜ¾¸8àğ1
+H
+java:S10752"&Remove this hard-coded path-delimiter.(ÔóÆšûÿÿÿÿ8àğ1
+H
+java:S10752"&Remove this hard-coded path-delimiter.(ÔóÆšûÿÿÿÿ8àğ1
+G	java:S1068"+Replace this use of System.out by a logger.(ö§ş8àğ1
+i	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Œ×8àğ1
+L	java:S106G"+Replace this use of System.out by a logger.(ìíåÒıÿÿÿÿ8àğ1
+G	java:S106J"+Replace this use of System.out by a logger.(‡ú¿…8àğ1
+L	java:S106K"+Replace this use of System.out by a logger.(€íé´ùÿÿÿÿ8àğ1

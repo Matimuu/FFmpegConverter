@@ -1,0 +1,11 @@
+
+7
+java:S1220""Move this file to a named package.8£ַ¦אנ1
+_
+java:S1854"=Remove this useless assignment to local variable "converter".(ידס­‏ÿÿÿÿ8¨ַ¦אנ1
+L	java:S106"+Replace this use of System.out by a logger.(•ֹÊ‏ÿÿÿÿ8×ַ¦אנ1
+G	java:S106"+Replace this use of System.out by a logger.(עטÊְ8×ַ¦אנ1
+G	java:S106"+Replace this use of System.out by a logger.(¦ן„’8×ַ¦אנ1
+P
+java:S1481".Remove this unused "converter" local variable.(ידס­‏ÿÿÿÿ8¬ַ¦אנ1
+L	java:S106"+Replace this use of System.out by a logger.(ץ׳׀üûÿÿÿÿ8¬ַ¦אנ1
