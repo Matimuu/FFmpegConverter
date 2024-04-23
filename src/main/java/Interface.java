@@ -6,9 +6,9 @@ import java.util.Scanner;
  */
 public class Interface {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) throws InterruptedException {
         long startTime = System.nanoTime();
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Process is started...");
         System.out.println("Destination format and folder:");
@@ -23,7 +23,19 @@ public class Interface {
             default -> throw new IllegalStateException("Unexpected value: " + index);
         };
 
-        Converter converter = new Converter(formatName);
+
+            System.out.println("enter name of volume:");
+            String volume1 = "/Users/omarenrique/Desktop/tests/SAMPLE VIDEO";
+            String volume2 = "/Users/omarenrique/Desktop/tests/Sample 2";
+
+            Thread thread1 = new Thread(new Converter(formatName, volume1));
+            thread1.start();
+
+            Thread thread2 = new Thread(new Converter(formatName, volume2));
+            thread2.start();
+
+            thread1.join();
+            thread2.join();
         System.out.println("it took "+(System.nanoTime()-startTime)/1000_000_000+" sec.");
     }
 }
