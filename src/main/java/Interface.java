@@ -23,16 +23,13 @@ public class Interface {
             default -> throw new IllegalStateException("Unexpected value: " + index);
         };
 
-
-            System.out.println("enter name of volume:");
-            String volume1 = "/Users/omarenrique/Desktop/tests/SAMPLE VIDEO";
-            String volume2 = "/Users/omarenrique/Desktop/tests/Sample 2";
-
-            Thread thread1 = new Thread(new Converter(formatName, volume1));
+            Thread thread1 = new Thread(new Converter(formatName));
             thread1.start();
+//            thread1.sleep(5000);
 
-            Thread thread2 = new Thread(new Converter(formatName, volume2));
+            Thread thread2 = new Thread(new Converter(formatName));
             thread2.start();
+
 
             thread1.join();
             thread2.join();

@@ -8,6 +8,7 @@ import net.bramp.ffmpeg.probe.FFmpegProbeResult;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,54 +18,61 @@ import java.util.regex.Pattern;
  * @date 2024/04/23 14:24
  */
 public class Converter implements Runnable{
-    private String IpathFolder = "/Users/omarenrique/Desktop/tests/SAMPLE VIDEO";
-    private String OpathFolder = "/Users/omarenrique/Library/CloudStorage/GoogleDrive-alekseich18@gmail.com/Shared drives/Vamos.Show (videos)";
+    private static volatile int index = 0;
+    private String[] volumes = {"N:\\", "Q:\\", "M:\\", "P:\\", "O:\\", "J:\\"};
+    private String OpathFolder = "D:\\VAMOS";
     private String codec = "libx265";
-    private Pattern pattern = Pattern.compile("(.mov)|(.mp4)$");
-
-    private Matcher matcher;
-    private Date currentDate = new Date();
-    private SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy");
     private File outFolder;
     private String outputFormatFolder;
+
+    private Pattern pattern = Pattern.compile("(.mov)|(.mp4)$");
+    private Matcher matcher;
+
+    private Date currentDate = new Date();
+    private SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyy");
+
 //    private String volume;
     //Constructor
 
-    public Converter(String outputFormatFolder, String volume) {
+    public Converter(String outputFormatFolder) {
         this.outputFormatFolder = outputFormatFolder;
-        this.IpathFolder = volume;
     }
 
     private void SurfingThroughDirectory(String outputFormatFolder) {
         // Create a File object for the directory
-        File directory = new File(IpathFolder);
+        for (; index < 6; index++) {
+            File directory = new File(volumes[index]);
 
-        // Verify if the provided path is a directory
-        if (directory.isDirectory()) {
-            File[] files = directory.listFiles();
+            // Verify if the provided path is a directory
+            if (directory.isDirectory()) {
+                File[] files = directory.listFiles();
 
-            for (File file : files) {
+                for (File file : files) {
 
-                matcher = pattern.matcher(file.getName());
+                    matcher = pattern.matcher(file.getName());
 
-                //Check if its ends with .mov/.mp4
-                if (!matcher.find()) {
-                    System.out.print("not a video");
-                    continue;
+                    //Check if its ends with .mov/.mp4
+                    if (!matcher.find()) {
+                        System.out.println("not a video");
+                        continue;
+                    }
+
+                    outFolder = new File(OpathFolder+"/"+outputFormatFolder+"/"+dateFormat.format(currentDate)+"/C"+file.getName().substring(0,1));
+                    outFolder.mkdirs();
+
+                    Converting(file, file.getAbsolutePath());
                 }
-
-                outFolder = new File(OpathFolder+"/"+outputFormatFolder+"/"+dateFormat.format(currentDate)+"/C"+file.getName().substring(0,1));
-                outFolder.mkdirs();
-
-                Converting(file, file.getAbsolutePath());
+            } else {
+                System.out.println("Provided path is not a directory.");
             }
-        } else {
-            System.out.println("Provided path is not a directory.");
         }
+        } {
+
+
     }
     private void Converting(File file, String IpathFile) {
         try {
-            FFmpeg ffmpeg = new FFmpeg("/opt/homebrew/Cellar/ffmpeg/6.1.1_7/bin/ffmpeg");
+            FFmpeg ffmpeg = new FFmpeg("C:\\ffmpeg\\bin\\ffmpeg.exe");
             FFmpegExecutor executor = new FFmpegExecutor(ffmpeg);
             String CNVRTDFileName = outFolder + "/" + file.getName().substring(0, file.getName().length() - 4) + "_" + codec + ".mov";
 
@@ -88,7 +96,7 @@ public class Converter implements Runnable{
     }
     private void Checking(File ORGFile, File CNVRTDFile) {
         try {
-            FFprobe fFprobe = new FFprobe("/opt/homebrew/Cellar/ffmpeg/6.1.1_7/bin/ffprobe");
+            FFprobe fFprobe = new FFprobe("C:\\ffmpeg\\bin\\ffprobe.exe");
 
             FFmpegProbeResult ORGprobeResult = fFprobe.probe(ORGFile.getPath());
             FFmpegFormat ORGFormat = ORGprobeResult.getFormat();
