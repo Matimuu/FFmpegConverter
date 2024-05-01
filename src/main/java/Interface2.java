@@ -36,12 +36,13 @@ public class Interface2 {
         logger.info("You choose: " + formatName);
 
         List<File> inputFolders = new ArrayList<>();
-        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/SAMPLE VIDEO"));
-        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
-//        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
-//        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
-//        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
-//        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
+        inputFolders.add(new File("N:/"));
+        inputFolders.add(new File("M:/"));
+        inputFolders.add(new File("O:/"));
+        inputFolders.add(new File("P:/"));
+        inputFolders.add(new File("G:/"));
+        inputFolders.add(new File("J:/"));
+        inputFolders.add(new File("Q:/"));
 
         List<Thread> threads = new ArrayList<>();
         for (File inputFolder : inputFolders) {
@@ -63,12 +64,13 @@ public class Interface2 {
     }
 
     private static void Copy() {
-        File outputFolderToCopy = new File("/Users/omarenrique/Desktop/tests/Converted/" + formatName + "/" + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
-        File destinationFilePath = new File("/Users/omarenrique/Desktop/tests/CopyTests");
+        File outputFolderToCopy = new File("D:/VAMOS/BACKUP/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+        File destinationFilePath = new File("L:/Shared drives/Vamos.Show (videos)/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
 
         List<String> cmd = new ArrayList<>(Arrays.asList(
-                "cp", "-r",
-                outputFolderToCopy.getAbsolutePath(), destinationFilePath.getAbsolutePath()
+                "xcopy",
+                outputFolderToCopy.getAbsolutePath(), destinationFilePath.getAbsolutePath(),
+                "/E", "/I", "/V", "/S"
         ));
         ProcessBuilder pb = new ProcessBuilder(cmd);
         pb.redirectErrorStream(true);

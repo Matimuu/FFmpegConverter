@@ -23,10 +23,10 @@ public class Converter2 implements Runnable {
     private File inputFolder;
     private File inputFile;
     private String outputFile;
-    private File outputFolder = new File("/Users/omarenrique/Desktop/tests/Converted/");
+    private File outputFolder = new File("/D:/VAMOS/BACKUP/");
     private File outputFolderToCopy;
-    //    private String convertingFormat = "hevc_nvenc";
-    private String convertingFormat = "libx265";
+        private String convertingFormat = "hevc_nvenc";
+//    private String convertingFormat = "libx265";
 
     public Converter2(File inputFolder, String showFormatName) {
         this.inputFolder = inputFolder;
@@ -56,7 +56,7 @@ public class Converter2 implements Runnable {
 
             logger.info(outputPath.getAbsolutePath() + ": folder was added");
 
-            outputFile = outputPath.getAbsolutePath() + "/" + inputFile.getName().substring(0, inputFile.getName().length() - 4) + "_libx265.mov";
+            outputFile = outputPath.getAbsolutePath() + File.separator + inputFile.getName().substring(0, inputFile.getName().length() - 4) + "_libx265.mov";
 
             ffmpegCmd(file);
         });
@@ -102,7 +102,7 @@ public class Converter2 implements Runnable {
     private void Checking(File ORGFile, File CNVRTDFile) {
         try {
             logger.info("Checking for errors...");
-            FFprobe fFprobe = new FFprobe("/opt/homebrew/Cellar/ffmpeg/6.1.1_7/bin/ffprobe");
+            FFprobe fFprobe = new FFprobe("C:/ffmpeg/bin/ffprobe.exe");
 
             FFmpegProbeResult ORGprobeResult = fFprobe.probe(ORGFile.getPath());
             FFmpegFormat ORGFormat = ORGprobeResult.getFormat();
