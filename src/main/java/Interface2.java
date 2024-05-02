@@ -3,8 +3,13 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author Mendoza Perez Omar Enrique
@@ -28,6 +33,7 @@ public class Interface2 {
             case 2 -> Format.PREVIA.getName();
             case 3 -> Format.CHAMPIONS.getName();
             case 4 -> Format.SHOW.getName();
+            case 9 -> Format.TEST.getName();
             default -> {
                 logger.error("Unexpected value: " + index);
                 throw new IllegalStateException();
@@ -59,32 +65,36 @@ public class Interface2 {
                 logger.error("Error joining thread: " + e.getMessage());
             }
         }
-        logger.info(String.format("Process ended! it took: %.2f min", ((System.nanoTime() - startTime) / 1000_000_000 / 60.0)));
         Copy();
+        logger.info(String.format("Process ended! it took: %.2f min", ((System.nanoTime() - startTime) / 1000_000_000 / 60.0)));
     }
 
     private static void Copy() {
+        logger.info("Copying started.");
+
         File outputFolderToCopy = new File("D:/VAMOS/BACKUP/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
         File destinationFilePath = new File("L:/Shared drives/Vamos.Show (videos)/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
 
-        List<String> cmd = new ArrayList<>(Arrays.asList(
-                "xcopy",
-                outputFolderToCopy.getAbsolutePath(), destinationFilePath.getAbsolutePath(),
-                "/E", "/I", "/V", "/S"
-        ));
-        ProcessBuilder pb = new ProcessBuilder(cmd);
-        pb.redirectErrorStream(true);
-
         try {
-            Process process = pb.start();
-            process.waitFor();
-            logger.info("Folder copied!");
+            // Create destination directory if it doesn't exist
+            if (!destinationFilePath.exists()) {
+                destinationFilePath.mkdirs();
+            }
+
+            // Iterate through files in the source directory and copy them to the destination directory
+            Files.walk(outputFolderToCopy.toPath())
+                    .forEach(sourcePath -> {
+                        Path destinationPath = Paths.get(destinationFilePath.getAbsolutePath(), outputFolderToCopy.toPath().relativize(sourcePath).toString());
+                        try {
+                            Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
+                        } catch (IOException e) {
+                            logger.error("Error copying file: " + e.getMessage());
+                        }
+                    });
+
+            logger.info("Folder copied successfully!");
         } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            logger.error("Error copying folder: " + e.getMessage());
         }
-
-
     }
 }

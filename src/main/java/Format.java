@@ -6,7 +6,8 @@ public enum Format {
     LIVE("LIVE", 1),
     PREVIA("PREVIA",2),
     CHAMPIONS("CHAMPIONS", 3),
-    SHOW("SHOW", 4);
+    SHOW("SHOW", 4),
+    TEST("TEST", 9);
     private String name;
     private int index;
 
