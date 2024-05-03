@@ -4,8 +4,7 @@ import net.bramp.ffmpeg.probe.FFmpegProbeResult;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,10 +22,10 @@ public class Converter2 implements Runnable {
     private File inputFolder;
     private File inputFile;
     private String outputFile;
-    private File outputFolder = new File("/Users/omarenrique/Desktop/tests/Converted/");
+    private File outputFolder = new File("/D:/VAMOS/BACKUP/");
     private File outputFolderToCopy;
-    //    private String convertingFormat = "hevc_nvenc";
-    private String convertingFormat = "libx265";
+        private String convertingFormat = "hevc_nvenc";
+//    private String convertingFormat = "libx265";
 
     public Converter2(File inputFolder, String showFormatName) {
         this.inputFolder = inputFolder;
@@ -56,7 +55,7 @@ public class Converter2 implements Runnable {
 
             logger.info(outputPath.getAbsolutePath() + ": folder was added");
 
-            outputFile = outputPath.getAbsolutePath() + "/" + inputFile.getName().substring(0, inputFile.getName().length() - 4) + "_libx265.mov";
+            outputFile = outputPath.getAbsolutePath() + File.separator + inputFile.getName().substring(0, inputFile.getName().length() - 4) + "_libx265.mov";
 
             ffmpegCmd(file);
         });
@@ -66,6 +65,8 @@ public class Converter2 implements Runnable {
         List<String> cmd = new ArrayList<>(Arrays.asList(
                 "ffmpeg",
                 "-hwaccel", "auto",
+                "-hide_banner",
+                "-loglevel", "error",
                 "-i", f.getAbsolutePath(),
                 "-c:v", convertingFormat,
                 "-b:v", "12500k",
@@ -90,19 +91,28 @@ public class Converter2 implements Runnable {
             Process process = pb.start();
             logger.info("Converting started.");
 
-            process.waitFor(); // Wait for the process to complete
-            Checking(f, new File(outputFile));
+            int exitCode = process.waitFor();
 
-            logger.info("Done, it took: " + (System.nanoTime() - startTime) / 1000_000_000 + "sec");
-        } catch (IOException | InterruptedException e) {
+//            StreamGobbler outputGobbler = new StreamGobbler(process.getInputStream());
+//            StreamGobbler errorGobbler = new StreamGobbler(process.getErrorStream());
+//            new Thread(outputGobbler).start();
+//            new Thread(errorGobbler).start();
+
+            if (exitCode == 0) {
+                logger.info("Done, it took: " + (System.nanoTime() - startTime) / 1000_000_000 + "sec");
+                Checking(f, new File(outputFile));
+            }
+        } catch (IOException e) {
             logger.error("Cannot run ffmpeg command: " + e.getMessage());
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
     }
 
     private void Checking(File ORGFile, File CNVRTDFile) {
         try {
             logger.info("Checking for errors...");
-            FFprobe fFprobe = new FFprobe("/opt/homebrew/Cellar/ffmpeg/6.1.1_7/bin/ffprobe");
+            FFprobe fFprobe = new FFprobe("C:\\ffmpeg\\bin\\ffprobe.exe");
 
             FFmpegProbeResult ORGprobeResult = fFprobe.probe(ORGFile.getPath());
             FFmpegFormat ORGFormat = ORGprobeResult.getFormat();
@@ -122,7 +132,24 @@ public class Converter2 implements Runnable {
             throw new RuntimeException(e);
         }
     }
-
+//    private class StreamGobbler implements Runnable {
+//        private final InputStream inputStream;
+//
+//        StreamGobbler(InputStream inputStream) {
+//            this.inputStream = inputStream;
+//        }
+//
+//        public void run() {
+//            try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
+//                String line;
+//                while ((line = reader.readLine()) != null) {
+//                    System.out.println(line);
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//    }
     @Override
     public void run() {
         ScrollingThroughFiles();

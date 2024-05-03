@@ -3,8 +3,13 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author Mendoza Perez Omar Enrique
@@ -28,6 +33,7 @@ public class Interface2 {
             case 2 -> Format.PREVIA.getName();
             case 3 -> Format.CHAMPIONS.getName();
             case 4 -> Format.SHOW.getName();
+            case 9 -> Format.TEST.getName();
             default -> {
                 logger.error("Unexpected value: " + index);
                 throw new IllegalStateException();
@@ -36,12 +42,13 @@ public class Interface2 {
         logger.info("You choose: " + formatName);
 
         List<File> inputFolders = new ArrayList<>();
-        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/SAMPLE VIDEO"));
-        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
-//        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
-//        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
-//        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
-//        inputFolders.add(new File("/Users/omarenrique/Desktop/tests/Sample 2"));
+        inputFolders.add(new File("N:/"));
+        inputFolders.add(new File("M:/"));
+        inputFolders.add(new File("O:/"));
+        inputFolders.add(new File("P:/"));
+        inputFolders.add(new File("G:/"));
+        inputFolders.add(new File("J:/"));
+        inputFolders.add(new File("Q:/"));
 
         List<Thread> threads = new ArrayList<>();
         for (File inputFolder : inputFolders) {
@@ -58,31 +65,36 @@ public class Interface2 {
                 logger.error("Error joining thread: " + e.getMessage());
             }
         }
-        logger.info(String.format("Process ended! it took: %.2f min", ((System.nanoTime() - startTime) / 1000_000_000 / 60.0)));
         Copy();
+        logger.info(String.format("Process ended! it took: %.2f min", ((System.nanoTime() - startTime) / 1000_000_000 / 60.0)));
     }
 
     private static void Copy() {
-        File outputFolderToCopy = new File("/Users/omarenrique/Desktop/tests/Converted/" + formatName + "/" + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
-        File destinationFilePath = new File("/Users/omarenrique/Desktop/tests/CopyTests");
+        logger.info("Copying started.");
 
-        List<String> cmd = new ArrayList<>(Arrays.asList(
-                "cp", "-r",
-                outputFolderToCopy.getAbsolutePath(), destinationFilePath.getAbsolutePath()
-        ));
-        ProcessBuilder pb = new ProcessBuilder(cmd);
-        pb.redirectErrorStream(true);
+        File outputFolderToCopy = new File("D:/VAMOS/BACKUP/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+        File destinationFilePath = new File("L:/Shared drives/Vamos.Show (videos)/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
 
         try {
-            Process process = pb.start();
-            process.waitFor();
-            logger.info("Folder copied!");
+            // Create destination directory if it doesn't exist
+            if (!destinationFilePath.exists()) {
+                destinationFilePath.mkdirs();
+            }
+
+            // Iterate through files in the source directory and copy them to the destination directory
+            Files.walk(outputFolderToCopy.toPath())
+                    .forEach(sourcePath -> {
+                        Path destinationPath = Paths.get(destinationFilePath.getAbsolutePath(), outputFolderToCopy.toPath().relativize(sourcePath).toString());
+                        try {
+                            Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
+                        } catch (IOException e) {
+                            logger.error("Error copying file: " + e.getMessage());
+                        }
+                    });
+
+            logger.info("Folder copied successfully!");
         } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            logger.error("Error copying folder: " + e.getMessage());
         }
-
-
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-04-29 23:56:57,938 [INFO] mainLogger main - Process is started...
 2024-04-29 23:56:57,939 [INFO] mainLogger main - Destination format and folder:
 2024-04-29 23:56:57,939 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
@@ -130,3 +131,744 @@
 2024-04-30 00:29:33,808 [INFO] mainLogger Thread-0 - Done, it took: 28sec
 2024-04-30 00:29:33,809 [INFO] mainLogger main - Process ended! it took: 2.00 min
 2024-04-30 00:29:34,253 [INFO] mainLogger main - Folder copied!
+=======
+2024-05-01 14:56:55,576 [INFO] mainLogger main - Process is started...
+2024-05-01 14:56:55,578 [INFO] mainLogger main - Destination format and folder:
+2024-05-01 14:56:55,578 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-01 14:57:05,422 [INFO] mainLogger main - You choose: LIVE
+2024-05-01 14:57:05,425 [INFO] mainLogger Thread-0 - Opening folder N:\
+2024-05-01 14:57:05,425 [INFO] mainLogger Thread-1 - Opening folder M:\
+2024-05-01 14:57:05,425 [INFO] mainLogger Thread-2 - Opening folder O:\
+2024-05-01 14:57:05,426 [INFO] mainLogger Thread-3 - Opening folder P:\
+2024-05-01 14:57:05,426 [INFO] mainLogger Thread-4 - Opening folder G:\
+2024-05-01 14:57:05,426 [INFO] mainLogger Thread-5 - Opening folder J:\
+2024-05-01 14:57:05,426 [INFO] mainLogger Thread-6 - Opening folder Q:\
+2024-05-01 14:57:15,381 [INFO] mainLogger Thread-1 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C3: folder was added
+2024-05-01 14:57:15,381 [INFO] mainLogger Thread-5 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 14:57:15,390 [INFO] mainLogger Thread-3 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C4: folder was added
+2024-05-01 14:57:15,390 [INFO] mainLogger Thread-4 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 14:57:15,390 [INFO] mainLogger Thread-2 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C2: folder was added
+2024-05-01 14:57:15,390 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C1: folder was added
+2024-05-01 14:57:15,390 [INFO] mainLogger Thread-6 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 14:57:16,849 [INFO] mainLogger Thread-1 - Converting started.
+2024-05-01 14:57:16,850 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-01 14:57:16,852 [INFO] mainLogger Thread-6 - Converting started.
+2024-05-01 14:57:16,853 [INFO] mainLogger Thread-2 - Converting started.
+2024-05-01 14:57:16,855 [INFO] mainLogger Thread-4 - Converting started.
+2024-05-01 14:57:16,857 [INFO] mainLogger Thread-3 - Converting started.
+2024-05-01 14:57:16,859 [INFO] mainLogger Thread-5 - Converting started.
+2024-05-01 15:02:27,233 [INFO] mainLogger Thread-5 - Checking for errors...
+2024-05-01 15:03:03,415 [INFO] mainLogger Thread-6 - Checking for errors...
+2024-05-01 15:03:05,351 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-05-01 15:03:07,648 [INFO] mainLogger Thread-2 - Checking for errors...
+2024-05-01 15:03:09,349 [INFO] mainLogger Thread-3 - Checking for errors...
+2024-05-01 15:03:11,642 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-01 15:03:14,007 [INFO] mainLogger Thread-4 - Checking for errors...
+2024-05-01 15:03:14,100 [INFO] mainLogger main - Process ended! it took: 6.30 min
+2024-05-01 15:03:14,130 [INFO] mainLogger main - Folder copied!
+2024-05-01 15:07:10,391 [INFO] mainLogger main - Process is started...
+2024-05-01 15:07:10,392 [INFO] mainLogger main - Destination format and folder:
+2024-05-01 15:07:10,392 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-01 15:07:13,248 [INFO] mainLogger main - You choose: LIVE
+2024-05-01 15:07:13,253 [INFO] mainLogger Thread-0 - Opening folder N:\
+2024-05-01 15:07:13,253 [INFO] mainLogger Thread-2 - Opening folder O:\
+2024-05-01 15:07:13,253 [INFO] mainLogger Thread-1 - Opening folder M:\
+2024-05-01 15:07:13,254 [INFO] mainLogger Thread-2 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C2: folder was added
+2024-05-01 15:07:13,254 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C1: folder was added
+2024-05-01 15:07:13,254 [INFO] mainLogger Thread-1 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C3: folder was added
+2024-05-01 15:07:13,259 [INFO] mainLogger Thread-2 - Converting started.
+2024-05-01 15:07:13,260 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-01 15:07:13,262 [INFO] mainLogger Thread-1 - Converting started.
+2024-05-01 15:07:57,179 [INFO] mainLogger main - Process is started...
+2024-05-01 15:07:57,182 [INFO] mainLogger main - Destination format and folder:
+2024-05-01 15:07:57,183 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-01 15:07:58,846 [INFO] mainLogger main - You choose: LIVE
+2024-05-01 15:07:58,850 [INFO] mainLogger Thread-0 - Opening folder N:\
+2024-05-01 15:07:58,852 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C1: folder was added
+2024-05-01 15:07:58,859 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-01 15:09:05,545 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-01 15:09:05,815 [INFO] mainLogger main - Process ended! it took: 1.13 min
+2024-05-01 15:09:06,660 [INFO] mainLogger main - Folder copied!
+2024-05-01 15:09:52,069 [INFO] mainLogger main - Process is started...
+2024-05-01 15:09:52,070 [INFO] mainLogger main - Destination format and folder:
+2024-05-01 15:09:52,071 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-01 15:09:55,106 [INFO] mainLogger main - You choose: LIVE
+2024-05-01 15:09:55,112 [INFO] mainLogger Thread-0 - Opening folder N:\
+2024-05-01 15:09:55,112 [INFO] mainLogger Thread-1 - Opening folder M:\
+2024-05-01 15:09:55,112 [INFO] mainLogger Thread-2 - Opening folder O:\
+2024-05-01 15:09:55,112 [INFO] mainLogger Thread-3 - Opening folder P:\
+2024-05-01 15:09:55,113 [INFO] mainLogger Thread-4 - Opening folder G:\
+2024-05-01 15:09:55,113 [INFO] mainLogger Thread-5 - Opening folder J:\
+2024-05-01 15:09:55,114 [INFO] mainLogger Thread-5 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 15:09:55,115 [INFO] mainLogger Thread-3 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C4: folder was added
+2024-05-01 15:09:55,115 [INFO] mainLogger Thread-2 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C2: folder was added
+2024-05-01 15:09:55,115 [INFO] mainLogger Thread-4 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 15:09:55,115 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C1: folder was added
+2024-05-01 15:09:55,115 [INFO] mainLogger Thread-1 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C3: folder was added
+2024-05-01 15:09:55,119 [INFO] mainLogger Thread-1 - Converting started.
+2024-05-01 15:09:55,119 [INFO] mainLogger Thread-4 - Converting started.
+2024-05-01 15:09:55,121 [INFO] mainLogger Thread-3 - Converting started.
+2024-05-01 15:09:55,123 [INFO] mainLogger Thread-2 - Converting started.
+2024-05-01 15:09:55,125 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-01 15:09:55,126 [INFO] mainLogger Thread-5 - Converting started.
+2024-05-01 15:10:40,442 [INFO] mainLogger Thread-5 - Checking for errors...
+2024-05-01 15:10:42,482 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-01 15:10:44,420 [INFO] mainLogger Thread-2 - Checking for errors...
+2024-05-01 15:10:46,130 [INFO] mainLogger Thread-3 - Checking for errors...
+2024-05-01 15:10:47,919 [INFO] mainLogger Thread-4 - Checking for errors...
+2024-05-01 15:10:49,643 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-05-01 15:10:49,738 [INFO] mainLogger main - Process ended! it took: 0.95 min
+2024-05-01 15:10:49,765 [INFO] mainLogger main - Folder copied!
+2024-05-01 15:11:01,423 [INFO] mainLogger main - Process is started...
+2024-05-01 15:11:01,424 [INFO] mainLogger main - Destination format and folder:
+2024-05-01 15:11:01,424 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-01 15:11:03,044 [INFO] mainLogger main - You choose: LIVE
+2024-05-01 15:11:03,048 [INFO] mainLogger Thread-1 - Opening folder M:\
+2024-05-01 15:11:03,047 [INFO] mainLogger Thread-0 - Opening folder N:\
+2024-05-01 15:11:03,048 [INFO] mainLogger Thread-2 - Opening folder O:\
+2024-05-01 15:11:03,048 [INFO] mainLogger Thread-3 - Opening folder P:\
+2024-05-01 15:11:03,048 [INFO] mainLogger Thread-4 - Opening folder G:\
+2024-05-01 15:11:03,049 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C1: folder was added
+2024-05-01 15:11:03,049 [INFO] mainLogger Thread-3 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C4: folder was added
+2024-05-01 15:11:03,049 [INFO] mainLogger Thread-2 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C2: folder was added
+2024-05-01 15:11:03,049 [INFO] mainLogger Thread-1 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C3: folder was added
+2024-05-01 15:11:03,050 [INFO] mainLogger Thread-4 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 15:11:03,054 [INFO] mainLogger Thread-3 - Converting started.
+2024-05-01 15:11:03,054 [INFO] mainLogger Thread-1 - Converting started.
+2024-05-01 15:11:03,056 [INFO] mainLogger Thread-2 - Converting started.
+2024-05-01 15:11:03,058 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-01 15:11:03,060 [INFO] mainLogger Thread-4 - Converting started.
+2024-05-01 15:12:35,045 [INFO] mainLogger main - Process is started...
+2024-05-01 15:12:35,047 [INFO] mainLogger main - Destination format and folder:
+2024-05-01 15:12:35,047 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-01 15:12:36,966 [INFO] mainLogger main - You choose: LIVE
+2024-05-01 15:12:36,970 [INFO] mainLogger Thread-0 - Opening folder N:\
+2024-05-01 15:12:36,971 [INFO] mainLogger Thread-2 - Opening folder O:\
+2024-05-01 15:12:36,971 [INFO] mainLogger Thread-1 - Opening folder M:\
+2024-05-01 15:12:36,971 [INFO] mainLogger Thread-3 - Opening folder P:\
+2024-05-01 15:12:36,971 [INFO] mainLogger Thread-4 - Opening folder G:\
+2024-05-01 15:12:36,971 [INFO] mainLogger Thread-5 - Opening folder J:\
+2024-05-01 15:12:36,971 [INFO] mainLogger Thread-6 - Opening folder Q:\
+2024-05-01 15:12:36,972 [INFO] mainLogger Thread-5 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 15:12:36,972 [INFO] mainLogger Thread-2 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C2: folder was added
+2024-05-01 15:12:36,972 [INFO] mainLogger Thread-1 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C3: folder was added
+2024-05-01 15:12:36,973 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C1: folder was added
+2024-05-01 15:12:36,973 [INFO] mainLogger Thread-6 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 15:12:36,973 [INFO] mainLogger Thread-4 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C6: folder was added
+2024-05-01 15:12:36,973 [INFO] mainLogger Thread-3 - D:\VAMOS\BACKUP\LIVE\2024-05-01\C4: folder was added
+2024-05-01 15:12:36,977 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-01 15:12:36,977 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-01 15:12:36,978 [INFO] mainLogger Thread-3 - Converting started.
+2024-05-01 15:12:36,978 [INFO] mainLogger Thread-3 - Checking for errors...
+2024-05-01 15:12:36,980 [INFO] mainLogger Thread-4 - Converting started.
+2024-05-01 15:12:36,980 [INFO] mainLogger Thread-4 - Checking for errors...
+2024-05-01 15:12:36,983 [INFO] mainLogger Thread-1 - Converting started.
+2024-05-01 15:12:36,983 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-05-01 15:12:36,985 [INFO] mainLogger Thread-5 - Converting started.
+2024-05-01 15:12:36,986 [INFO] mainLogger Thread-5 - Checking for errors...
+2024-05-01 15:12:36,988 [INFO] mainLogger Thread-6 - Converting started.
+2024-05-01 15:12:36,988 [INFO] mainLogger Thread-6 - Checking for errors...
+2024-05-01 15:12:36,990 [INFO] mainLogger Thread-2 - Converting started.
+2024-05-01 15:12:36,990 [INFO] mainLogger Thread-2 - Checking for errors...
+2024-05-01 15:12:37,157 [INFO] mainLogger main - Process ended! it took: 0.03 min
+2024-05-02 15:53:32,062 [INFO] mainLogger main - Process is started...
+2024-05-02 15:53:32,063 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 15:53:32,063 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 15:54:54,394 [INFO] mainLogger main - You choose: TEST
+2024-05-02 15:54:54,401 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test
+2024-05-02 15:54:54,402 [INFO] mainLogger main - Process ended! it took: 1.37 min
+2024-05-02 15:54:54,418 [INFO] mainLogger main - Folder copied!
+2024-05-02 15:56:06,462 [INFO] mainLogger main - Process is started...
+2024-05-02 15:56:06,463 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 15:56:06,463 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 15:56:10,601 [INFO] mainLogger main - You choose: TEST
+2024-05-02 15:56:10,607 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 15:56:10,609 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 15:56:12,019 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:05:54,126 [INFO] mainLogger main - Process is started...
+2024-05-02 16:05:54,127 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:05:54,127 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:05:56,671 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:05:56,674 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:05:56,675 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:05:56,679 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:05:56,681 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:05:56,681 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:05:56,683 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:05:56,683 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:05:56,683 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:05:56,685 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:05:56,685 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:05:56,686 [INFO] mainLogger main - Process ended! it took: 0.03 min
+2024-05-02 16:05:56,759 [INFO] mainLogger main - Folder copied!
+2024-05-02 16:14:21,157 [INFO] mainLogger main - Process is started...
+2024-05-02 16:14:21,158 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:14:21,158 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:14:26,066 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:14:26,072 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:14:26,073 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:14:26,077 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:14:26,078 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:14:26,078 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:14:26,080 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:14:26,080 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:14:26,080 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:14:26,082 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:14:26,082 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:14:26,083 [INFO] mainLogger main - Process ended! it took: 0.07 min
+2024-05-02 16:17:25,821 [INFO] mainLogger main - Process is started...
+2024-05-02 16:17:25,822 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:17:25,822 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:17:27,958 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:17:27,961 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:17:27,962 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:17:27,967 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:17:27,967 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:17:27,967 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:17:29,498 [INFO] mainLogger main - Process ended! it took: 0.05 min
+2024-05-02 16:18:55,788 [INFO] mainLogger main - Process is started...
+2024-05-02 16:18:55,790 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:18:55,790 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:18:58,077 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:18:58,083 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:18:58,084 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:18:58,089 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:18:58,090 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:18:58,090 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:18:58,187 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:18:58,187 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:18:58,189 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:18:58,189 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:18:58,189 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:18:58,248 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:18:58,249 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:18:58,251 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:18:58,251 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:18:58,251 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:18:58,310 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:18:58,311 [INFO] mainLogger main - Process ended! it took: 0.03 min
+2024-05-02 16:25:32,612 [INFO] mainLogger main - Process is started...
+2024-05-02 16:25:32,614 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:25:32,614 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:25:35,281 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:25:35,285 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:25:35,286 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:25:35,290 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:25:35,291 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:25:35,291 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:25:35,395 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:25:35,395 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:25:35,397 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:25:35,397 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:25:35,397 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:25:35,457 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:25:35,457 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:25:35,459 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:25:35,459 [INFO] mainLogger Thread-0 - Done, it took: 0sec
+2024-05-02 16:25:35,459 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:25:35,519 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:25:35,520 [INFO] mainLogger main - Process ended! it took: 0.03 min
+2024-05-02 16:32:31,715 [INFO] mainLogger main - Process is started...
+2024-05-02 16:32:31,717 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:32:31,717 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:32:35,177 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:32:35,181 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:32:35,183 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:32:35,187 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:32:37,733 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:32:37,734 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:32:37,827 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:32:37,827 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:32:37,829 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:32:40,271 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:32:40,272 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:32:40,325 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:32:40,325 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:32:40,327 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:32:42,780 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:32:42,781 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:32:42,836 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:32:42,836 [INFO] mainLogger main - Process ended! it took: 0.18 min
+2024-05-02 16:32:42,836 [INFO] mainLogger main - Copying started.
+2024-05-02 16:43:47,419 [INFO] mainLogger main - Process is started...
+2024-05-02 16:43:47,420 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:43:47,420 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:43:49,999 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:43:50,004 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:43:50,005 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:43:50,010 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:43:52,461 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:43:52,461 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:43:52,550 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:43:52,550 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:43:52,552 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:43:55,002 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:43:55,002 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:43:55,056 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:43:55,056 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:43:55,058 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:43:57,516 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:43:57,516 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:43:57,570 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:43:57,571 [INFO] mainLogger main - Process ended! it took: 0.17 min
+2024-05-02 16:43:57,571 [INFO] mainLogger main - Copying started.
+2024-05-02 16:45:00,261 [INFO] mainLogger main - Process is started...
+2024-05-02 16:45:00,262 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:45:00,262 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:45:02,687 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:45:02,692 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:45:02,693 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:45:02,698 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:45:05,137 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:45:05,137 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:45:05,231 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:45:05,231 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:45:05,233 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:45:07,681 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:45:07,682 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:45:07,738 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:45:07,739 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:45:07,740 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:45:10,194 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:45:10,194 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:45:10,248 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:45:10,249 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 16:45:10,249 [INFO] mainLogger main - Copying started.
+2024-05-02 16:45:10,249 [INFO] mainLogger main - command was created.
+2024-05-02 16:45:55,722 [INFO] mainLogger main - Process is started...
+2024-05-02 16:45:55,723 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:45:55,723 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:45:57,759 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:45:57,765 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:45:57,765 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:45:57,770 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:46:00,219 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:46:00,219 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:46:00,309 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:46:00,309 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:46:00,311 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:46:02,775 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:46:02,775 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:46:02,831 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:46:02,831 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:46:02,833 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:46:05,284 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:46:05,284 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:46:05,340 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:46:05,341 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 16:46:05,341 [INFO] mainLogger main - Copying started.
+2024-05-02 16:46:05,341 [INFO] mainLogger main - command was created.
+2024-05-02 16:46:05,343 [INFO] mainLogger main - process started.
+2024-05-02 16:52:15,717 [INFO] mainLogger main - Process is started...
+2024-05-02 16:52:15,719 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:52:15,719 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:52:17,886 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:52:17,892 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:52:17,893 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:52:17,898 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:52:20,348 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:52:20,348 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:52:20,439 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:52:20,439 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:52:20,441 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:52:22,892 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:52:22,892 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:52:22,946 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:52:22,946 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:52:22,948 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:52:25,389 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:52:25,390 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:52:25,445 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:52:25,445 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 16:52:25,445 [INFO] mainLogger main - Copying started.
+2024-05-02 16:53:42,297 [INFO] mainLogger main - Process is started...
+2024-05-02 16:53:42,299 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:53:42,299 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:53:45,517 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:53:45,522 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:53:45,523 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:53:45,529 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:53:47,986 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:53:47,987 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:53:48,079 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:53:48,079 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:53:48,080 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:53:50,532 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:53:50,532 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:53:50,587 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:53:50,587 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:53:50,588 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:53:53,045 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:53:53,045 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:53:53,101 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:53:53,101 [INFO] mainLogger main - Process ended! it took: 0.17 min
+2024-05-02 16:53:53,101 [INFO] mainLogger main - Copying started.
+2024-05-02 16:53:53,102 [INFO] mainLogger main - command was created.
+2024-05-02 16:53:53,103 [INFO] mainLogger main - process started.
+2024-05-02 16:54:54,577 [INFO] mainLogger main - Process is started...
+2024-05-02 16:54:54,579 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:54:54,579 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:55:03,837 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:55:03,840 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:55:03,841 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:55:03,846 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:55:06,320 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:55:06,320 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:55:06,416 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:55:06,417 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:55:06,418 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:55:08,863 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:55:08,863 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:55:08,916 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:55:08,917 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:55:08,918 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:55:11,359 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:55:11,360 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:55:11,414 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:55:11,415 [INFO] mainLogger main - Process ended! it took: 0.27 min
+2024-05-02 16:55:11,415 [INFO] mainLogger main - Copying started.
+2024-05-02 16:55:11,415 [INFO] mainLogger main - command was created.
+2024-05-02 16:55:11,417 [INFO] mainLogger main - process started.
+2024-05-02 16:56:26,416 [INFO] mainLogger main - Process is started...
+2024-05-02 16:56:26,417 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 16:56:26,417 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 16:56:28,419 [INFO] mainLogger main - You choose: TEST
+2024-05-02 16:56:28,424 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 16:56:28,425 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 16:56:28,430 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:56:30,901 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:56:30,901 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:56:30,992 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:56:30,992 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 16:56:30,994 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:56:33,440 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:56:33,440 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:56:33,494 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:56:33,494 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 16:56:33,496 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 16:56:35,957 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 16:56:35,958 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 16:56:36,013 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 16:56:36,014 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 16:56:36,014 [INFO] mainLogger main - Copying started.
+2024-05-02 16:56:36,014 [INFO] mainLogger main - command was created.
+2024-05-02 16:56:36,016 [INFO] mainLogger main - process started.
+2024-05-02 16:56:36,016 [INFO] mainLogger main - Folder copied successfully!
+2024-05-02 17:01:48,284 [INFO] mainLogger main - Process is started...
+2024-05-02 17:01:48,285 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:01:48,285 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:01:50,356 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:01:50,359 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:01:50,360 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:01:50,364 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:01:52,819 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:01:52,819 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:01:52,908 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:01:52,908 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:01:52,910 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:01:55,345 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:01:55,345 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:01:55,400 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:01:55,400 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:01:55,402 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:01:57,856 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:01:57,856 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:01:57,911 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:01:57,912 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 17:01:57,912 [INFO] mainLogger main - Copying started.
+2024-05-02 17:01:57,912 [INFO] mainLogger main - command was created.
+2024-05-02 17:01:57,914 [INFO] mainLogger main - process started.
+2024-05-02 17:02:57,922 [INFO] mainLogger main - Folder copied successfully!
+2024-05-02 17:05:12,829 [INFO] mainLogger main - Process is started...
+2024-05-02 17:05:12,830 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:05:12,830 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:05:15,319 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:05:15,323 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:05:15,324 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:05:15,328 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:05:17,794 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:05:17,794 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:05:17,889 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:05:17,889 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:05:17,890 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:05:20,339 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:05:20,340 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:05:20,394 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:05:20,394 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:05:20,396 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:05:22,835 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:05:22,836 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:05:22,890 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:05:22,890 [INFO] mainLogger main - Process ended! it took: 0.17 min
+2024-05-02 17:05:22,890 [INFO] mainLogger main - Copying started.
+2024-05-02 17:05:22,890 [INFO] mainLogger main - command was created.
+2024-05-02 17:05:22,892 [INFO] mainLogger main - process started.
+2024-05-02 17:15:37,573 [INFO] mainLogger main - Process is started...
+2024-05-02 17:15:37,574 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:15:37,574 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:15:39,605 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:15:39,609 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:15:39,610 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:15:39,615 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:15:42,082 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:15:42,082 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:15:42,173 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:15:42,174 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:15:42,175 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:15:44,620 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:15:44,620 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:15:44,674 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:15:44,675 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:15:44,676 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:15:47,118 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:15:47,118 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:15:47,171 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:15:47,172 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 17:15:47,172 [INFO] mainLogger main - Copying started.
+2024-05-02 17:15:47,172 [INFO] mainLogger main - Command was created.
+2024-05-02 17:15:47,174 [INFO] mainLogger main - Process started.
+2024-05-02 17:16:52,444 [INFO] mainLogger main - Process is started...
+2024-05-02 17:16:52,445 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:16:52,445 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:16:54,789 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:16:54,794 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:16:54,796 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:16:54,801 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:16:57,238 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:16:57,238 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:16:57,327 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:16:57,327 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:16:57,329 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:16:59,747 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:16:59,748 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:16:59,802 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:16:59,802 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:16:59,803 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:17:02,258 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:17:02,258 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:17:02,314 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:17:02,315 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 17:17:02,315 [INFO] mainLogger main - Copying started.
+2024-05-02 17:17:02,315 [INFO] mainLogger main - Command was created.
+2024-05-02 17:17:02,317 [INFO] mainLogger main - Process started.
+2024-05-02 17:17:02,318 [INFO] mainLogger main - D:\VAMOS\BACKUP\TEST\2024-05-02
+2024-05-02 17:17:02,318 [INFO] mainLogger main - L:\Shared drives\Vamos.Show (videos)\TEST\2024-05-02
+2024-05-02 17:18:51,586 [INFO] mainLogger main - Process is started...
+2024-05-02 17:18:51,587 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:18:51,587 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:18:54,613 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:18:54,618 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:18:54,620 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:18:54,625 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:18:57,081 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:18:57,081 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:18:57,171 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:18:57,171 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:18:57,173 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:18:59,608 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:18:59,608 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:18:59,662 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:18:59,663 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:18:59,664 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:19:02,110 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:19:02,110 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:19:02,165 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:19:02,165 [INFO] mainLogger main - Process ended! it took: 0.17 min
+2024-05-02 17:19:02,165 [INFO] mainLogger main - Copying started.
+2024-05-02 17:19:02,166 [INFO] mainLogger main - Command was created.
+2024-05-02 17:19:02,167 [INFO] mainLogger main - Process started.
+2024-05-02 17:21:06,444 [INFO] mainLogger main - Process is started...
+2024-05-02 17:21:06,445 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:21:06,445 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:21:08,352 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:21:08,356 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:21:08,358 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:21:08,363 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:21:10,825 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:21:10,825 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:21:10,915 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:21:10,916 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:21:10,917 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:21:13,369 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:21:13,369 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:21:13,425 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:21:13,425 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:21:13,426 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:21:15,879 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:21:15,879 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:21:15,933 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:21:15,934 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 17:21:15,934 [INFO] mainLogger main - Copying started.
+2024-05-02 17:21:15,934 [INFO] mainLogger main - Command was created.
+2024-05-02 17:21:15,936 [INFO] mainLogger main - Process started.
+2024-05-02 17:22:11,914 [INFO] mainLogger main - Process is started...
+2024-05-02 17:22:11,915 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:22:11,915 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:22:14,845 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:22:14,850 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:22:14,852 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:22:14,856 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:22:17,323 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:22:17,323 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:22:17,415 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:22:17,415 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:22:17,416 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:22:19,853 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:22:19,853 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:22:19,907 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:22:19,907 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:22:19,909 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:22:22,346 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:22:22,347 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:22:22,400 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:22:22,401 [INFO] mainLogger main - Process ended! it took: 0.17 min
+2024-05-02 17:22:22,401 [INFO] mainLogger main - Copying started.
+2024-05-02 17:22:22,401 [INFO] mainLogger main - Command was created.
+2024-05-02 17:22:22,403 [INFO] mainLogger main - Process started.
+2024-05-02 17:22:22,403 [INFO] mainLogger main - D:\VAMOS\BACKUP\TEST\2024-05-02
+2024-05-02 17:22:22,403 [INFO] mainLogger main - L:\Shared drives\Vamos.Show (videos)\TEST\2024-05-02
+2024-05-02 17:26:48,011 [INFO] mainLogger main - Process is started...
+2024-05-02 17:26:48,012 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:26:48,012 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:26:49,939 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:26:49,943 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:26:49,944 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:26:49,948 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:26:52,421 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:26:52,421 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:26:52,513 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:26:52,514 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:26:52,515 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:26:54,964 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:26:54,964 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:26:55,018 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:26:55,018 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:26:55,020 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:26:57,473 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:26:57,473 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:26:57,531 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:26:57,531 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 17:26:57,531 [INFO] mainLogger main - Copying started.
+2024-05-02 17:26:57,533 [INFO] mainLogger main - process started.
+2024-05-02 17:27:58,264 [INFO] mainLogger main - Process is started...
+2024-05-02 17:27:58,265 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:27:58,265 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:28:01,046 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:28:01,052 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:28:01,053 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:28:01,057 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:28:03,507 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:28:03,507 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:28:03,597 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:28:03,598 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:28:03,599 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:28:06,048 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:28:06,048 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:28:06,103 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:28:06,103 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:28:06,105 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:28:08,559 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:28:08,559 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:28:08,614 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:28:08,614 [INFO] mainLogger main - Process ended! it took: 0.17 min
+2024-05-02 17:28:08,614 [INFO] mainLogger main - Copying started.
+2024-05-02 17:28:08,616 [INFO] mainLogger main - process started.
+2024-05-02 17:28:08,623 [INFO] mainLogger main - Error of copying
+2024-05-02 17:28:33,728 [INFO] mainLogger main - Process is started...
+2024-05-02 17:28:33,729 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:28:33,729 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:28:35,871 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:28:35,874 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:28:35,875 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:28:35,880 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:28:38,334 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:28:38,334 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:28:38,424 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:28:38,424 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:28:38,425 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:28:40,871 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:28:40,871 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:28:40,926 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:28:40,926 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:28:40,928 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:28:43,369 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:28:43,369 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:28:43,423 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:28:43,424 [INFO] mainLogger main - Process ended! it took: 0.15 min
+2024-05-02 17:28:43,424 [INFO] mainLogger main - Copying started.
+2024-05-02 17:31:37,348 [INFO] mainLogger main - Process is started...
+2024-05-02 17:31:37,350 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:31:37,350 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:31:40,362 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:31:40,366 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:31:40,367 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:31:40,372 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:31:42,822 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:31:42,822 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:31:42,914 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:31:42,914 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:31:42,916 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:31:45,348 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:31:45,348 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:31:45,402 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:31:45,403 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:31:45,404 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:31:47,863 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:31:47,863 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:31:47,917 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:31:47,917 [INFO] mainLogger main - Copying started.
+2024-05-02 17:31:47,919 [ERROR] mainLogger main - Error copying file: L:\Shared drives\Vamos.Show (videos)\TEST\2024-05-02
+2024-05-02 17:31:47,920 [ERROR] mainLogger main - Error copying file: L:\Shared drives\Vamos.Show (videos)\TEST\2024-05-02\C1
+2024-05-02 17:31:47,951 [ERROR] mainLogger main - Error copying file: L:\Shared drives\Vamos.Show (videos)\TEST\2024-05-02\C2
+2024-05-02 17:31:47,978 [ERROR] mainLogger main - Error copying file: L:\Shared drives\Vamos.Show (videos)\TEST\2024-05-02\C3
+2024-05-02 17:31:48,008 [INFO] mainLogger main - Folder copied successfully!
+2024-05-02 17:31:48,008 [INFO] mainLogger main - Process ended! it took: 0.17 min
+2024-05-02 17:32:57,357 [INFO] mainLogger main - Process is started...
+2024-05-02 17:32:57,358 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:32:57,358 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:32:59,886 [INFO] mainLogger main - You choose: TEST
+2024-05-02 17:32:59,890 [INFO] mainLogger Thread-0 - Opening folder C:\Users\onAir\Desktop\test\SAMPLE 1
+2024-05-02 17:32:59,893 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C1: folder was added
+2024-05-02 17:32:59,897 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:33:02,366 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:33:02,366 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:33:02,457 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:33:02,457 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C2: folder was added
+2024-05-02 17:33:02,459 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:33:04,931 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:33:04,931 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:33:04,986 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:33:04,987 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\TEST\2024-05-02\C3: folder was added
+2024-05-02 17:33:04,988 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:33:07,433 [INFO] mainLogger Thread-0 - Done, it took: 2sec
+2024-05-02 17:33:07,433 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 17:33:07,489 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 17:33:07,489 [INFO] mainLogger main - Copying started.
+2024-05-02 17:33:07,575 [INFO] mainLogger main - Folder copied successfully!
+2024-05-02 17:33:07,575 [INFO] mainLogger main - Process ended! it took: 0.17 min
+2024-05-02 17:34:29,772 [INFO] mainLogger main - Process is started...
+2024-05-02 17:34:29,773 [INFO] mainLogger main - Destination format and folder:
+2024-05-02 17:34:29,773 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-05-02 17:34:42,434 [INFO] mainLogger main - You choose: LIVE
+2024-05-02 17:34:42,439 [INFO] mainLogger Thread-0 - Opening folder N:\
+2024-05-02 17:34:42,440 [INFO] mainLogger Thread-3 - Opening folder P:\
+2024-05-02 17:34:42,440 [INFO] mainLogger Thread-1 - Opening folder M:\
+2024-05-02 17:34:42,440 [INFO] mainLogger Thread-2 - Opening folder O:\
+2024-05-02 17:34:42,440 [INFO] mainLogger Thread-4 - Opening folder G:\
+2024-05-02 17:34:42,440 [INFO] mainLogger Thread-6 - Opening folder Q:\
+2024-05-02 17:34:42,440 [INFO] mainLogger Thread-5 - Opening folder J:\
+2024-05-02 17:34:42,441 [INFO] mainLogger Thread-6 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C6: folder was added
+2024-05-02 17:34:42,441 [INFO] mainLogger Thread-4 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C6: folder was added
+2024-05-02 17:34:42,442 [INFO] mainLogger Thread-1 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C3: folder was added
+2024-05-02 17:34:42,442 [INFO] mainLogger Thread-3 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C4: folder was added
+2024-05-02 17:34:42,442 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C1: folder was added
+2024-05-02 17:34:42,442 [INFO] mainLogger Thread-2 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C2: folder was added
+2024-05-02 17:34:42,449 [INFO] mainLogger Thread-5 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C6: folder was added
+2024-05-02 17:34:42,677 [INFO] mainLogger Thread-1 - Converting started.
+2024-05-02 17:34:42,677 [INFO] mainLogger Thread-5 - Converting started.
+2024-05-02 17:34:42,679 [INFO] mainLogger Thread-2 - Converting started.
+2024-05-02 17:34:42,681 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 17:34:42,683 [INFO] mainLogger Thread-3 - Converting started.
+2024-05-02 17:34:42,685 [INFO] mainLogger Thread-6 - Converting started.
+2024-05-02 17:34:42,687 [INFO] mainLogger Thread-4 - Converting started.
+>>>>>>> 6285d71db9958ac8643c2a60c2428d82dded9efe
