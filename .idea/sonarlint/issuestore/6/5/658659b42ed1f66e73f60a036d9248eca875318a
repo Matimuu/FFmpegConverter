@@ -1,38 +1,31 @@
 
+m
+java:S1192*"KDefine a constant instead of duplicating this literal "yyyy-MM-dd" 3 times.(ˆÁ¥Úüÿÿÿÿ8Í‘éùó1
 T
-java:S2629&"7Use the built-in formatting to construct this argument.(İµ¶í8ŸÜ„øó1
+java:S2629&"7Use the built-in formatting to construct this argument.(İµ¶í8¡ßçùó1
 T
-java:S2629*"7Use the built-in formatting to construct this argument.(­‘ñ¿8 Ü„øó1
+java:S2629-"7Use the built-in formatting to construct this argument.(­‘ñ¿8¡ßçùó1
 A
-java:S2629E"$Invoke method(s) only conditionally.(°Î·½8 Ü„øó1
+java:S2629I"$Invoke method(s) only conditionally.(°Î·½8¡ßçùó1
 7
-java:S1220""Move this file to a named package.8 Ü„øó1
+java:S1220""Move this file to a named package.8¡ßçùó1
 f
-java:S2095U"DUse try-with-resources or close this "Stream" in a "finally" clause.(ùŠ€Üùÿÿÿÿ8¨Ü„øó1
-^
-java:S3457&"AFormat specifiers should be used instead of string concatenation.(İµ¶í8°Ü„øó1
-^
-java:S3457*"AFormat specifiers should be used instead of string concatenation.(­‘ñ¿8±Ü„øó1
-c
-java:S1075-"ARefactor your code to get this URI from a customizable parameter.(ßÂÒ üÿÿÿÿ8²Ü„øó1
-c
-java:S1075."ARefactor your code to get this URI from a customizable parameter.(×è½—üÿÿÿÿ8³Ü„øó1
-c
-java:S1075/"ARefactor your code to get this URI from a customizable parameter.(ØùÓ÷üÿÿÿÿ8³Ü„øó1
-c
-java:S10750"ARefactor your code to get this URI from a customizable parameter.(¼îÙäøÿÿÿÿ8³Ü„øó1
-^
-java:S10751"ARefactor your code to get this URI from a customizable parameter.(­›ãŠ8´Ü„øó1
-c
-java:S10752"ARefactor your code to get this URI from a customizable parameter.(¬›Íãşÿÿÿÿ8´Ü„øó1
-^
-java:S10753"ARefactor your code to get this URI from a customizable parameter.(ñ©ƒŒ8´Ü„øó1
+java:S2095a"DUse try-with-resources or close this "Stream" in a "finally" clause.(ùŠ€Üùÿÿÿÿ8¨ßçùó1
 {
-java:S2142@"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¶Ü„øó1
-c
-java:S3457A"AFormat specifiers should be used instead of string concatenation.(£ü¿çÿÿÿÿÿ8·Ü„øó1
-i	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œû8¸Ü„øó1
+java:S1450"YRemove the "formatName" field and declare it as a local variable in the relevant methods.(’¤àÒıÿÿÿÿ8¤²èùó1
 ^
-java:S3457["AFormat specifiers should be used instead of string concatenation.(²Œ”¼8¾Ü„øó1
+java:S3457&"AFormat specifiers should be used instead of string concatenation.(İµ¶í8°ßçùó1
+^
+java:S3457-"AFormat specifiers should be used instead of string concatenation.(­‘ñ¿8±ßçùó1
+^
+java:S10750"ARefactor your code to get this URI from a customizable parameter.(õ“³Ú8²ßçùó1
+X	java:S1251"<This block of commented-out lines of code should be removed.(ËÖˆÏ8²ßçùó1
+{
+java:S2142D"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8´ßçùó1
+c
+java:S3457E"AFormat specifiers should be used instead of string concatenation.(£ü¿çÿÿÿÿÿ8´ßçùó1
+i	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œû8·ßçùó1
+^
+java:S3457g"AFormat specifiers should be used instead of string concatenation.(²Œ”¼8»ßçùó1
 ]
-java:S3457a"AFormat specifiers should be used instead of string concatenation.(×êá8¿Ü„øó1
+java:S3457m"AFormat specifiers should be used instead of string concatenation.(×êá8¼ßçùó1

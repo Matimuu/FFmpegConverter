@@ -19,8 +19,8 @@ public class Interface2 {
     private static final Logger logger = LogManager.getLogger("mainLogger");
     private static final Scanner scanner = new Scanner(System.in);
     private static String formatName;
-    private static File outputFolderToCopy = new File("D:/VAMOS/BACKUP/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
-    private static final File destinationFilePath = new File("L:/Shared drives/Vamos.Show (videos)/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+    private static File outputFolderToCopy;
+    private static File destinationFilePath;
 
     public static void main(String[] args) {
         logger.info("Process is started...");
@@ -39,6 +39,9 @@ public class Interface2 {
                 throw new IllegalStateException();
             }
         };
+        outputFolderToCopy = new File("D:/VAMOS/BACKUP/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+        destinationFilePath = new File("L:/Shared drives/Vamos.Show (videos)/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+
         logger.info("You choose: " + formatName);
 
         List<File> inputFolders = new ArrayList<>();
