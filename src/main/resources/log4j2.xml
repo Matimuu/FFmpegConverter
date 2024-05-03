@@ -2,14 +2,14 @@
 <Configuration status="info">
     <Properties>
         <Property name="layout"> %d{DEFAULT} [%t] %-5level %logger - %m%n</Property>
-        <Property name="outputFolderXML">${sys:outputFolder}</Property>
+        <Property name="outputFolderXML">${env:outputFolder}</Property>
     </Properties>
     <Appenders>
         <Console name="console" target="SYSTEM_OUT">
             <PatternLayout
                     pattern="${layout}"/>
         </Console>
-        <File name="logFile" fileName="app.log">
+        <File name="logFile" fileName="${outputFolderXML}/app.log">
             <PatternLayout pattern="%d [%p] %c{1} %t - %m%n" />
         </File>
     </Appenders>

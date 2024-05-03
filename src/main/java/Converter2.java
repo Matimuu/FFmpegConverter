@@ -93,11 +93,6 @@ public class Converter2 implements Runnable {
 
             int exitCode = process.waitFor();
 
-//            StreamGobbler outputGobbler = new StreamGobbler(process.getInputStream());
-//            StreamGobbler errorGobbler = new StreamGobbler(process.getErrorStream());
-//            new Thread(outputGobbler).start();
-//            new Thread(errorGobbler).start();
-
             if (exitCode == 0) {
                 logger.info("Done, it took: " + (System.nanoTime() - startTime) / 1000_000_000 + "sec");
                 Checking(f, new File(outputFile));
@@ -132,24 +127,6 @@ public class Converter2 implements Runnable {
             throw new RuntimeException(e);
         }
     }
-//    private class StreamGobbler implements Runnable {
-//        private final InputStream inputStream;
-//
-//        StreamGobbler(InputStream inputStream) {
-//            this.inputStream = inputStream;
-//        }
-//
-//        public void run() {
-//            try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
-//                String line;
-//                while ((line = reader.readLine()) != null) {
-//                    System.out.println(line);
-//                }
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//    }
     @Override
     public void run() {
         ScrollingThroughFiles();
