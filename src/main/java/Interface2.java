@@ -9,20 +9,20 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author Mendoza Perez Omar Enrique
  * @date 2024/04/28 15:01
  */
 public class Interface2 {
+    static long startTime = System.nanoTime();
     private static final Logger logger = LogManager.getLogger("mainLogger");
     private static final Scanner scanner = new Scanner(System.in);
     private static String formatName;
+    private static File outputFolderToCopy = new File("D:/VAMOS/BACKUP/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+    private static final File destinationFilePath = new File("L:/Shared drives/Vamos.Show (videos)/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
 
     public static void main(String[] args) {
-        long startTime = System.nanoTime();
-
         logger.info("Process is started...");
         logger.info("Destination format and folder:");
         logger.info("1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW");
@@ -42,13 +42,14 @@ public class Interface2 {
         logger.info("You choose: " + formatName);
 
         List<File> inputFolders = new ArrayList<>();
-        inputFolders.add(new File("N:/"));
-        inputFolders.add(new File("M:/"));
-        inputFolders.add(new File("O:/"));
-        inputFolders.add(new File("P:/"));
-        inputFolders.add(new File("G:/"));
-        inputFolders.add(new File("J:/"));
-        inputFolders.add(new File("Q:/"));
+        inputFolders.add(new File("C:/Users/onAir/Desktop/test/SAMPLE 1"));
+       // inputFolders.add(new File("N:/"));
+       // inputFolders.add(new File("M:/"));
+       // inputFolders.add(new File("O:/"));
+       // inputFolders.add(new File("P:/"));
+       // inputFolders.add(new File("G:/"));
+       // inputFolders.add(new File("J:/"));
+       // inputFolders.add(new File("Q:/"));
 
         List<Thread> threads = new ArrayList<>();
         for (File inputFolder : inputFolders) {
@@ -68,12 +69,20 @@ public class Interface2 {
         Copy();
         logger.info(String.format("Process ended! it took: %.2f min", ((System.nanoTime() - startTime) / 1000_000_000 / 60.0)));
     }
+    private static void saveLog() {
+        try{
+            Files.copy(Path.of(new SimpleDateFormat("yyyy-MM-dd").format(new Date())+".log"), outputFolderToCopy.toPath());
+            logger.info("Log file copied");
+        } catch (IOException e) {
+            logger.error("Log file lost.");
+        }
 
+    }
     private static void Copy() {
         logger.info("Copying started.");
+        saveLog();
 
-        File outputFolderToCopy = new File("D:/VAMOS/BACKUP/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
-        File destinationFilePath = new File("L:/Shared drives/Vamos.Show (videos)/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+
 
         try {
             // Create destination directory if it doesn't exist
@@ -97,4 +106,5 @@ public class Interface2 {
             logger.error("Error copying folder: " + e.getMessage());
         }
     }
+
 }

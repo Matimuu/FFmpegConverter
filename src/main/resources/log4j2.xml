@@ -9,7 +9,7 @@
             <PatternLayout
                     pattern="${layout}"/>
         </Console>
-        <File name="logFile" fileName="${outputFolderXML}/app.log">
+        <File name="logFile" filePattern="%d{yyyy-MM-dd}.log">
             <PatternLayout pattern="%d [%p] %c{1} %t - %m%n" />
         </File>
     </Appenders>

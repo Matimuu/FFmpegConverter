@@ -871,4 +871,83 @@
 2024-05-02 17:34:42,683 [INFO] mainLogger Thread-3 - Converting started.
 2024-05-02 17:34:42,685 [INFO] mainLogger Thread-6 - Converting started.
 2024-05-02 17:34:42,687 [INFO] mainLogger Thread-4 - Converting started.
+2024-05-02 18:46:28,757 [INFO] mainLogger Thread-4 - Done, it took: 4306sec
+2024-05-02 18:46:28,767 [INFO] mainLogger Thread-4 - Checking for errors...
+2024-05-02 18:46:29,320 [INFO] mainLogger Thread-4 - Everything is alright!
+2024-05-02 18:46:29,320 [INFO] mainLogger Thread-4 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C6: folder was added
+2024-05-02 18:46:29,320 [INFO] mainLogger Thread-4 - Converting started.
+2024-05-02 19:03:25,693 [INFO] mainLogger Thread-5 - Done, it took: 5323sec
+2024-05-02 19:03:25,693 [INFO] mainLogger Thread-5 - Checking for errors...
+2024-05-02 19:03:25,980 [INFO] mainLogger Thread-5 - Everything is alright!
+2024-05-02 19:19:12,067 [INFO] mainLogger Thread-4 - Done, it took: 1962sec
+2024-05-02 19:19:12,067 [INFO] mainLogger Thread-4 - Checking for errors...
+2024-05-02 19:19:12,352 [INFO] mainLogger Thread-4 - Everything is alright!
+2024-05-02 19:19:50,857 [INFO] mainLogger Thread-6 - Done, it took: 6308sec
+2024-05-02 19:19:50,857 [INFO] mainLogger Thread-6 - Checking for errors...
+2024-05-02 19:19:51,040 [INFO] mainLogger Thread-6 - Everything is alright!
+2024-05-02 19:19:51,040 [INFO] mainLogger Thread-6 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C6: folder was added
+2024-05-02 19:19:51,045 [INFO] mainLogger Thread-6 - Converting started.
+2024-05-02 19:19:59,597 [INFO] mainLogger Thread-3 - Done, it took: 6317sec
+2024-05-02 19:19:59,597 [INFO] mainLogger Thread-3 - Checking for errors...
+2024-05-02 19:19:59,807 [INFO] mainLogger Thread-3 - Everything is alright!
+2024-05-02 19:19:59,807 [INFO] mainLogger Thread-3 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C4: folder was added
+2024-05-02 19:19:59,810 [INFO] mainLogger Thread-3 - Converting started.
+2024-05-02 19:20:10,816 [INFO] mainLogger Thread-1 - Done, it took: 6328sec
+2024-05-02 19:20:10,816 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-05-02 19:20:10,989 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-05-02 19:20:10,989 [INFO] mainLogger Thread-1 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C3: folder was added
+2024-05-02 19:20:10,992 [INFO] mainLogger Thread-1 - Converting started.
+2024-05-02 19:20:20,790 [INFO] mainLogger Thread-0 - Done, it took: 6338sec
+2024-05-02 19:20:20,790 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 19:20:20,970 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 19:20:20,970 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C1: folder was added
+2024-05-02 19:20:20,970 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 19:20:21,780 [INFO] mainLogger Thread-2 - Done, it took: 6339sec
+2024-05-02 19:20:21,780 [INFO] mainLogger Thread-2 - Checking for errors...
+2024-05-02 19:20:22,010 [INFO] mainLogger Thread-2 - Everything is alright!
+2024-05-02 19:20:22,010 [INFO] mainLogger Thread-2 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C2: folder was added
+2024-05-02 19:20:22,020 [INFO] mainLogger Thread-2 - Converting started.
+2024-05-02 20:23:11,853 [INFO] mainLogger Thread-6 - Done, it took: 3800sec
+2024-05-02 20:23:11,853 [INFO] mainLogger Thread-6 - Checking for errors...
+2024-05-02 20:23:12,278 [INFO] mainLogger Thread-6 - Everything is alright!
+2024-05-02 20:23:12,278 [INFO] mainLogger Thread-6 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C6: folder was added
+2024-05-02 20:23:12,282 [INFO] mainLogger Thread-6 - Converting started.
+2024-05-02 20:23:36,897 [INFO] mainLogger Thread-3 - Done, it took: 3817sec
+2024-05-02 20:23:36,897 [INFO] mainLogger Thread-3 - Checking for errors...
+2024-05-02 20:23:37,127 [INFO] mainLogger Thread-3 - Everything is alright!
+2024-05-02 20:23:37,127 [INFO] mainLogger Thread-3 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C4: folder was added
+2024-05-02 20:23:37,130 [INFO] mainLogger Thread-3 - Converting started.
+2024-05-02 20:23:39,570 [INFO] mainLogger Thread-1 - Done, it took: 3808sec
+2024-05-02 20:23:39,570 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-05-02 20:23:39,803 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-05-02 20:23:39,804 [INFO] mainLogger Thread-1 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C3: folder was added
+2024-05-02 20:23:39,807 [INFO] mainLogger Thread-1 - Converting started.
+2024-05-02 20:23:57,262 [INFO] mainLogger Thread-0 - Done, it took: 3816sec
+2024-05-02 20:23:57,262 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 20:23:57,460 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 20:23:57,460 [INFO] mainLogger Thread-0 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C1: folder was added
+2024-05-02 20:23:57,462 [INFO] mainLogger Thread-0 - Converting started.
+2024-05-02 20:24:17,727 [INFO] mainLogger Thread-2 - Done, it took: 3835sec
+2024-05-02 20:24:17,727 [INFO] mainLogger Thread-2 - Checking for errors...
+2024-05-02 20:24:17,928 [INFO] mainLogger Thread-2 - Everything is alright!
+2024-05-02 20:24:17,929 [INFO] mainLogger Thread-2 - D:\VAMOS\BACKUP\LIVE\2024-05-02\C2: folder was added
+2024-05-02 20:24:17,931 [INFO] mainLogger Thread-2 - Converting started.
+2024-05-02 23:11:16,640 [INFO] mainLogger Thread-6 - Done, it took: 10084sec
+2024-05-02 23:11:16,643 [INFO] mainLogger Thread-6 - Checking for errors...
+2024-05-02 23:11:16,950 [INFO] mainLogger Thread-6 - Everything is alright!
+2024-05-02 23:12:00,346 [INFO] mainLogger Thread-1 - Done, it took: 10100sec
+2024-05-02 23:12:00,346 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-05-02 23:12:00,603 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-05-02 23:12:20,429 [INFO] mainLogger Thread-3 - Done, it took: 10123sec
+2024-05-02 23:12:20,429 [INFO] mainLogger Thread-3 - Checking for errors...
+2024-05-02 23:12:20,675 [INFO] mainLogger Thread-3 - Everything is alright!
+2024-05-02 23:12:34,629 [INFO] mainLogger Thread-2 - Done, it took: 10096sec
+2024-05-02 23:12:34,629 [INFO] mainLogger Thread-2 - Checking for errors...
+2024-05-02 23:12:34,876 [INFO] mainLogger Thread-2 - Everything is alright!
+2024-05-02 23:12:37,616 [INFO] mainLogger Thread-0 - Done, it took: 10120sec
+2024-05-02 23:12:37,616 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-05-02 23:12:37,777 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-05-02 23:12:37,778 [INFO] mainLogger main - Copying started.
+2024-05-02 23:32:33,557 [INFO] mainLogger main - Folder copied successfully!
+2024-05-02 23:32:33,559 [INFO] mainLogger main - Process ended! it took: 358.05 min
 >>>>>>> 6285d71db9958ac8643c2a60c2428d82dded9efe
