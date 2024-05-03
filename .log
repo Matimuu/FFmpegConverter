@@ -1,0 +1,475 @@
+2024-04-27 16:03:48,161 [INFO] mainLog main - logger started 
+2024-04-27 16:06:07,847 [INFO]  main - logger started 
+2024-04-27 16:06:25,311 [INFO]  main - logger started 
+2024-04-28 15:08:41,443 [INFO]  main - Process is started...
+2024-04-28 15:08:41,445 [INFO]  main - Destination format and folder:
+2024-04-28 15:08:41,445 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:08:58,710 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:08:58,710 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:08:58,711 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:08:58,711 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:08:58,711 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:08:58,711 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:08:58,711 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:08:58,713 [INFO]  main - it took 0 min.
+2024-04-28 15:09:52,217 [INFO]  main - Process is started...
+2024-04-28 15:09:52,219 [INFO]  main - Destination format and folder:
+2024-04-28 15:09:52,219 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:09:53,818 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:09:53,819 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:09:53,818 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:09:53,819 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:09:53,819 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:09:53,819 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:09:53,819 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:09:53,822 [INFO]  main - it took 0 min.
+2024-04-28 15:10:06,999 [INFO]  main - Process is started...
+2024-04-28 15:10:07,000 [INFO]  main - Destination format and folder:
+2024-04-28 15:10:07,000 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:10:08,895 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:10:08,895 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:10:08,896 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:10:08,896 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:10:08,896 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:10:08,896 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:10:08,896 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:10:08,897 [INFO]  main - it took 0 min.
+2024-04-28 15:11:28,438 [INFO]  main - Process is started...
+2024-04-28 15:11:28,439 [INFO]  main - Destination format and folder:
+2024-04-28 15:11:28,439 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:11:31,115 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:11:31,115 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:11:31,116 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:11:31,116 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:11:31,116 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:11:31,116 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:11:31,116 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:11:31,119 [INFO]  main - it took 0 min.
+2024-04-28 15:13:04,803 [INFO]  main - Process is started...
+2024-04-28 15:13:04,804 [INFO]  main - Destination format and folder:
+2024-04-28 15:13:04,804 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:13:09,058 [INFO]  main - Process is started...
+2024-04-28 15:13:09,060 [INFO]  main - Destination format and folder:
+2024-04-28 15:13:09,060 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:13:10,938 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:13:10,938 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:13:10,939 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:13:10,939 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:13:10,939 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:13:10,939 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-28 15:13:10,939 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-28 15:13:10,942 [INFO]  main - it took 0 min.
+2024-04-28 15:14:14,575 [INFO]  main - Process is started...
+2024-04-28 15:14:14,576 [INFO]  main - Destination format and folder:
+2024-04-28 15:14:14,576 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:14:28,230 [INFO]  main - Process is started...
+2024-04-28 15:14:28,231 [INFO]  main - Destination format and folder:
+2024-04-28 15:14:28,231 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:14:36,800 [INFO] mainLogger main - Process is started...
+2024-04-28 15:14:36,802 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 15:14:36,802 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:16:30,990 [INFO] mainLogger main - Process is started...
+2024-04-28 15:16:30,992 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 15:16:30,992 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:18:10,178 [INFO] mainLogger main - Process is started...
+2024-04-28 15:18:10,180 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 15:18:10,180 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 15:21:23,630 [INFO] mainLogger main - Process is started...
+2024-04-28 15:21:23,631 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 15:21:23,631 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 16:56:05,364 [INFO] mainLogger main - Process is started...
+2024-04-28 16:56:05,365 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 16:56:05,365 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 16:57:03,603 [INFO] mainLogger main - Process is started...
+2024-04-28 16:57:03,604 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 16:57:03,605 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 16:57:15,272 [INFO] mainLogger main - Process is started...
+2024-04-28 16:57:15,273 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 16:57:15,273 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 16:58:44,805 [INFO] mainLogger main - Process is started...
+2024-04-28 16:58:44,806 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 16:58:44,806 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 17:54:57,275 [INFO] mainLogger main - Process is started...
+2024-04-28 17:54:57,276 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 17:54:57,276 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 17:55:27,879 [INFO] mainLogger main - Process is started...
+2024-04-28 17:55:27,880 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 17:55:27,880 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 17:56:23,674 [INFO] mainLogger main - Process is started...
+2024-04-28 17:56:23,675 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 17:56:23,676 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 18:00:04,767 [INFO] mainLogger main - Process is started...
+2024-04-28 18:00:04,768 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 18:00:04,769 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 18:03:47,381 [INFO] mainLogger main - Process is started...
+2024-04-28 18:03:47,382 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 18:03:47,382 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-28 18:05:04,656 [INFO] mainLogger main - Process is started...
+2024-04-28 18:05:04,657 [INFO] mainLogger main - Destination format and folder:
+2024-04-28 18:05:04,657 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:12:05,106 [INFO]  main - Process is started...
+2024-04-29 15:12:05,108 [INFO]  main - Destination format and folder:
+2024-04-29 15:12:05,108 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:12:10,105 [INFO] mainLogger main - Process is started...
+2024-04-29 15:12:10,107 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:12:10,107 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:12:32,083 [INFO]  main - Process is started...
+2024-04-29 15:12:32,085 [INFO]  main - Destination format and folder:
+2024-04-29 15:12:32,085 [INFO]  main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:12:33,529 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-29 15:12:33,529 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-29 15:12:33,529 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-29 15:12:33,529 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-29 15:12:33,530 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-29 15:12:33,530 [WARN] mainLogger Thread-1 - Provided path is not a directory.
+2024-04-29 15:12:33,530 [WARN] mainLogger Thread-0 - Provided path is not a directory.
+2024-04-29 15:12:33,531 [INFO]  main - it took 0 min.
+2024-04-29 15:12:45,031 [INFO] mainLogger main - Process is started...
+2024-04-29 15:12:45,032 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:12:45,032 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:13:35,414 [INFO] mainLogger main - Process is started...
+2024-04-29 15:13:35,415 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:13:35,415 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:13:57,996 [INFO] mainLogger main - Process is started...
+2024-04-29 15:13:57,997 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:13:57,998 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:14:17,371 [INFO] mainLogger main - Process is started...
+2024-04-29 15:14:17,372 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:14:17,372 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:18:08,162 [INFO] mainLogger main - Process is started...
+2024-04-29 15:18:08,163 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:18:08,163 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:18:39,769 [INFO] mainLogger main - Process is started...
+2024-04-29 15:18:40,732 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:18:42,691 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:19:40,064 [INFO] mainLogger main - Process is started...
+2024-04-29 15:19:40,066 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:19:40,066 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:19:46,848 [INFO] mainLogger main - Process is started...
+2024-04-29 15:19:46,849 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:19:46,849 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:21:49,934 [INFO] mainLogger main - Process is started...
+2024-04-29 15:21:49,935 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:21:49,935 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:21:58,512 [INFO] mainLogger main - Process is started...
+2024-04-29 15:21:58,513 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:21:58,514 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:23:13,619 [INFO] mainLogger main - Process is started...
+2024-04-29 15:23:13,621 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:23:13,621 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:24:10,540 [INFO] mainLogger main - Process is started...
+2024-04-29 15:24:10,542 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:24:10,542 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 15:55:19,029 [INFO] mainLogger main - Process is started...
+2024-04-29 15:55:19,030 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 15:55:19,030 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 16:34:08,564 [INFO] mainLogger main - Process is started...
+2024-04-29 16:34:08,565 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 16:34:08,565 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 16:36:44,602 [INFO] mainLogger main - Process is started...
+2024-04-29 16:36:44,603 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 16:36:44,603 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 16:38:25,022 [INFO] mainLogger main - Process is started...
+2024-04-29 16:38:25,023 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 16:38:25,023 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 16:40:33,646 [INFO] mainLogger main - Process is started...
+2024-04-29 16:40:33,647 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 16:40:33,647 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 16:45:26,994 [INFO] mainLogger main - Process is started...
+2024-04-29 16:45:26,995 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 16:45:26,995 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 20:29:58,872 [INFO] mainLogger main - Process is started...
+2024-04-29 20:29:58,873 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 20:29:58,873 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 20:37:11,716 [INFO] mainLogger main - Process is started...
+2024-04-29 20:37:11,717 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 20:37:11,717 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 20:37:14,236 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/2024-04-29/SHOW: was added
+2024-04-29 20:37:14,251 [INFO] mainLogger main - Converting started.
+2024-04-29 20:37:14,308 [INFO] mainLogger main - Converting started.
+2024-04-29 20:37:14,351 [INFO] mainLogger main - Converting started.
+2024-04-29 20:39:19,809 [INFO] mainLogger main - Process is started...
+2024-04-29 20:39:19,810 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 20:39:19,810 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 20:39:21,623 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/2024-04-29/SHOW: was added
+2024-04-29 20:39:21,623 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 20:39:21,635 [INFO] mainLogger main - Converting started.
+2024-04-29 20:39:21,689 [INFO] mainLogger main - Converting started.
+2024-04-29 20:39:21,731 [INFO] mainLogger main - Converting started.
+2024-04-29 20:40:27,472 [INFO] mainLogger main - Process is started...
+2024-04-29 20:40:27,473 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 20:40:27,473 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 20:40:29,138 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/2024-04-29/SHOW: folder was added
+2024-04-29 20:40:29,139 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 20:40:29,156 [INFO] mainLogger main - Converting started.
+2024-04-29 20:40:29,208 [INFO] mainLogger main - Converting started.
+2024-04-29 20:40:29,250 [INFO] mainLogger main - Converting started.
+2024-04-29 20:58:25,575 [INFO] mainLogger main - Process is started...
+2024-04-29 20:58:25,577 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 20:58:25,577 [INFO] mainLogger main - 1.LIRVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 20:58:31,238 [INFO] mainLogger main - Process is started...
+2024-04-29 20:58:31,239 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 20:58:31,239 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 20:58:33,517 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 20:58:33,522 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/2024-04-29/SHOW: folder was added
+2024-04-29 20:58:33,522 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 20:58:33,539 [INFO] mainLogger main - Converting started.
+2024-04-29 20:58:33,593 [INFO] mainLogger main - Converting started.
+2024-04-29 20:58:33,640 [INFO] mainLogger main - Converting started.
+2024-04-29 21:03:10,155 [INFO] mainLogger main - Process is started...
+2024-04-29 21:03:10,156 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 21:03:10,156 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 21:03:11,565 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 21:03:11,568 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/2024-04-29/SHOW: folder was added
+2024-04-29 21:03:11,569 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 21:04:27,658 [INFO] mainLogger main - Process is started...
+2024-04-29 21:04:27,660 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 21:04:27,660 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 21:04:29,062 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 21:04:29,066 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/2024-04-29/SHOW: folder was added
+2024-04-29 21:04:29,067 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:05:52,200 [INFO] mainLogger main - Process is started...
+2024-04-29 22:05:52,202 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:05:52,202 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:05:53,844 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:05:53,848 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/2024-04-29/SHOW: folder was added
+2024-04-29 22:05:53,848 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:05:53,860 [INFO] mainLogger main - Converting started.
+2024-04-29 22:06:23,355 [INFO] mainLogger main - Converting started.
+2024-04-29 22:06:52,938 [INFO] mainLogger main - Converting started.
+2024-04-29 22:13:32,511 [INFO] mainLogger main - Process is started...
+2024-04-29 22:13:32,512 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:13:32,512 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:13:35,586 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:13:35,594 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/: folder was added
+2024-04-29 22:13:35,594 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:13:35,605 [INFO] mainLogger main - Converting started.
+2024-04-29 22:14:05,158 [INFO] mainLogger main - Converting started.
+2024-04-29 22:14:34,765 [INFO] mainLogger main - Converting started.
+2024-04-29 22:15:03,405 [INFO] mainLogger main - Process ended! it took: 1min
+2024-04-29 22:15:21,500 [INFO] mainLogger main - Process is started...
+2024-04-29 22:15:21,501 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:15:21,501 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:15:25,321 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:16:44,389 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/: folder was added
+2024-04-29 22:16:44,390 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:16:44,410 [INFO] mainLogger main - Converting started.
+2024-04-29 22:16:45,720 [INFO] mainLogger main - Process is started...
+2024-04-29 22:16:45,721 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:16:45,721 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:16:47,998 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:16:59,319 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/: folder was added
+2024-04-29 22:17:07,883 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:17:07,935 [INFO] mainLogger main - Converting started.
+2024-04-29 22:17:37,480 [INFO] mainLogger main - Converting started.
+2024-04-29 22:18:07,828 [INFO] mainLogger main - Converting started.
+2024-04-29 22:19:39,420 [INFO] mainLogger main - Process ended! it took: 2min
+2024-04-29 22:21:14,857 [INFO] mainLogger main - Process is started...
+2024-04-29 22:21:14,858 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:21:14,859 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:21:17,264 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:21:17,273 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/: folder was added
+2024-04-29 22:21:17,274 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:21:17,287 [INFO] mainLogger main - Converting started.
+2024-04-29 22:21:46,778 [INFO] mainLogger main - Converting started.
+2024-04-29 22:22:16,520 [INFO] mainLogger main - Converting started.
+2024-04-29 22:22:45,765 [INFO] mainLogger main - Process ended! it took: 1min
+2024-04-29 22:24:32,277 [INFO] mainLogger main - Process is started...
+2024-04-29 22:24:32,278 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:24:32,278 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:24:33,791 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:24:33,798 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/: folder was added
+2024-04-29 22:24:33,799 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:24:33,810 [INFO] mainLogger main - Converting started.
+2024-04-29 22:25:03,312 [INFO] mainLogger main - Done, it took: 0min
+2024-04-29 22:25:03,315 [INFO] mainLogger main - Converting started.
+2024-04-29 22:25:33,299 [INFO] mainLogger main - Done, it took: 0min
+2024-04-29 22:25:33,303 [INFO] mainLogger main - Converting started.
+2024-04-29 22:26:02,305 [INFO] mainLogger main - Done, it took: 0min
+2024-04-29 22:26:02,305 [INFO] mainLogger main - Process ended! it took: 1min
+2024-04-29 22:26:48,629 [INFO] mainLogger main - Process is started...
+2024-04-29 22:26:48,630 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:26:48,630 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:26:50,042 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:26:50,050 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/: folder was added
+2024-04-29 22:26:50,050 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:26:50,061 [INFO] mainLogger main - Converting started.
+2024-04-29 22:27:19,799 [INFO] mainLogger main - Done, it took: 29sec
+2024-04-29 22:27:19,801 [INFO] mainLogger main - Converting started.
+2024-04-29 22:27:49,509 [INFO] mainLogger main - Done, it took: 29sec
+2024-04-29 22:27:49,512 [INFO] mainLogger main - Converting started.
+2024-04-29 22:28:18,059 [INFO] mainLogger main - Done, it took: 28sec
+2024-04-29 22:28:18,060 [INFO] mainLogger main - Process ended! it took: 1min
+2024-04-29 22:31:13,477 [INFO] mainLogger main - Process is started...
+2024-04-29 22:31:13,478 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:31:13,478 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:31:15,603 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:31:15,611 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/: folder was added
+2024-04-29 22:31:15,611 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:31:15,621 [INFO] mainLogger main - Converting started.
+2024-04-29 22:31:15,671 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:31:15,673 [INFO] mainLogger main - Converting started.
+2024-04-29 22:31:15,717 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:31:15,719 [INFO] mainLogger main - Converting started.
+2024-04-29 22:31:15,760 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:31:15,761 [INFO] mainLogger main - Process ended! it took: 0.03333333333333333min
+2024-04-29 22:37:10,664 [INFO] mainLogger main - Process is started...
+2024-04-29 22:37:10,666 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:37:10,666 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:37:12,584 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:37:12,591 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:37:12,592 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2: folder was added
+2024-04-29 22:37:12,602 [INFO] mainLogger main - Converting started.
+2024-04-29 22:37:12,652 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:37:12,652 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2C3: folder was added
+2024-04-29 22:37:12,654 [INFO] mainLogger main - Converting started.
+2024-04-29 22:37:12,698 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:37:12,698 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2C3C1: folder was added
+2024-04-29 22:37:12,700 [INFO] mainLogger main - Converting started.
+2024-04-29 22:37:12,741 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:37:12,741 [INFO] mainLogger main - Process ended! it took: 0.03 min
+2024-04-29 22:39:10,818 [INFO] mainLogger main - Process is started...
+2024-04-29 22:39:10,820 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:39:10,820 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:39:12,161 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:39:12,167 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:39:12,170 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2: folder was added
+2024-04-29 22:39:12,180 [INFO] mainLogger main - Converting started.
+2024-04-29 22:39:12,230 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:39:12,231 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2/C3: folder was added
+2024-04-29 22:39:12,232 [INFO] mainLogger main - Converting started.
+2024-04-29 22:39:12,274 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:39:12,274 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2/C3/C1: folder was added
+2024-04-29 22:39:12,276 [INFO] mainLogger main - Converting started.
+2024-04-29 22:39:12,316 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:39:12,316 [INFO] mainLogger main - Process ended! it took: 0.02 min
+2024-04-29 22:49:38,637 [INFO] mainLogger main - Process is started...
+2024-04-29 22:49:38,639 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:49:38,639 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:49:40,387 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:49:40,394 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:49:40,396 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/ConvertedSHOW/2024-04-29/C2: folder was added
+2024-04-29 22:49:40,408 [INFO] mainLogger main - Converting started.
+2024-04-29 22:49:40,459 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:49:40,460 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/ConvertedSHOW/2024-04-29/C3: folder was added
+2024-04-29 22:49:40,461 [INFO] mainLogger main - Converting started.
+2024-04-29 22:49:40,504 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:49:40,505 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/ConvertedSHOW/2024-04-29/C1: folder was added
+2024-04-29 22:49:40,506 [INFO] mainLogger main - Converting started.
+2024-04-29 22:49:40,547 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:49:40,547 [INFO] mainLogger main - Process ended! it took: 0.02 min
+2024-04-29 22:51:27,730 [INFO] mainLogger main - Process is started...
+2024-04-29 22:51:27,731 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:51:27,731 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:51:29,224 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:51:29,231 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:51:29,233 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/ConvertedSHOW/2024-04-29C2: folder was added
+2024-04-29 22:51:29,242 [INFO] mainLogger main - Converting started.
+2024-04-29 22:51:29,295 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:51:29,295 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/ConvertedSHOW/2024-04-29C3: folder was added
+2024-04-29 22:51:29,297 [INFO] mainLogger main - Converting started.
+2024-04-29 22:51:29,340 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:51:29,340 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/ConvertedSHOW/2024-04-29C1: folder was added
+2024-04-29 22:51:29,342 [INFO] mainLogger main - Converting started.
+2024-04-29 22:51:29,382 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:51:29,383 [INFO] mainLogger main - Process ended! it took: 0.02 min
+2024-04-29 22:51:54,672 [INFO] mainLogger main - Process is started...
+2024-04-29 22:51:54,673 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:51:54,674 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:51:56,303 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:51:56,307 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:51:56,308 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2: folder was added
+2024-04-29 22:51:56,314 [INFO] mainLogger main - Converting started.
+2024-04-29 22:51:56,357 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:51:56,357 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C3: folder was added
+2024-04-29 22:51:56,359 [INFO] mainLogger main - Converting started.
+2024-04-29 22:51:56,401 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:51:56,402 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C1: folder was added
+2024-04-29 22:51:56,404 [INFO] mainLogger main - Converting started.
+2024-04-29 22:51:56,445 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:51:56,446 [INFO] mainLogger main - Process ended! it took: 0.02 min
+2024-04-29 22:53:01,500 [INFO] mainLogger main - Process is started...
+2024-04-29 22:53:01,501 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:53:01,502 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:53:03,657 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:53:03,668 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:53:12,712 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2: folder was added
+2024-04-29 22:53:12,757 [INFO] mainLogger main - Converting started.
+2024-04-29 22:53:12,786 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:53:12,787 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C3: folder was added
+2024-04-29 22:53:12,789 [INFO] mainLogger main - Converting started.
+2024-04-29 22:53:12,833 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:53:12,833 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C1: folder was added
+2024-04-29 22:53:12,835 [INFO] mainLogger main - Converting started.
+2024-04-29 22:53:12,878 [INFO] mainLogger main - Done, it took: 0sec
+2024-04-29 22:54:56,277 [INFO] mainLogger main - Process ended! it took: 1.90 min
+2024-04-29 22:54:59,972 [INFO] mainLogger main - Process is started...
+2024-04-29 22:54:59,974 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:54:59,974 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:55:01,286 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:55:01,293 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:55:01,295 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2: folder was added
+2024-04-29 22:55:01,305 [INFO] mainLogger main - Converting started.
+2024-04-29 22:55:30,774 [INFO] mainLogger main - Done, it took: 29sec
+2024-04-29 22:55:30,775 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C3: folder was added
+2024-04-29 22:55:30,778 [INFO] mainLogger main - Converting started.
+2024-04-29 22:56:00,229 [INFO] mainLogger main - Done, it took: 29sec
+2024-04-29 22:56:00,229 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C1: folder was added
+2024-04-29 22:56:00,232 [INFO] mainLogger main - Converting started.
+2024-04-29 22:56:28,582 [INFO] mainLogger main - Done, it took: 28sec
+2024-04-29 22:56:28,583 [INFO] mainLogger main - Process ended! it took: 1.47 min
+2024-04-29 22:59:26,267 [INFO] mainLogger main - Process is started...
+2024-04-29 22:59:26,268 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 22:59:26,268 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 22:59:28,728 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 22:59:28,735 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 22:59:28,737 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2: folder was added
+2024-04-29 22:59:28,750 [INFO] mainLogger main - Converting started.
+2024-04-29 22:59:58,283 [INFO] mainLogger main - Done, it took: 29sec
+2024-04-29 22:59:58,283 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C3: folder was added
+2024-04-29 22:59:58,285 [INFO] mainLogger main - Converting started.
+2024-04-29 23:00:28,024 [INFO] mainLogger main - Done, it took: 29sec
+2024-04-29 23:00:28,025 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C1: folder was added
+2024-04-29 23:00:28,027 [INFO] mainLogger main - Converting started.
+2024-04-29 23:00:56,571 [INFO] mainLogger main - Done, it took: 28sec
+2024-04-29 23:00:56,571 [INFO] mainLogger main - Opening folder /Users/omarenrique/Desktop/tests/Sample 2
+2024-04-29 23:00:56,572 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C4: folder was added
+2024-04-29 23:00:56,574 [INFO] mainLogger main - Converting started.
+2024-04-29 23:01:26,193 [INFO] mainLogger main - Done, it took: 29sec
+2024-04-29 23:01:26,193 [INFO] mainLogger main - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C1: folder was added
+2024-04-29 23:01:26,195 [INFO] mainLogger main - Converting started.
+2024-04-29 23:01:54,884 [INFO] mainLogger main - Done, it took: 28sec
+2024-04-29 23:01:54,885 [INFO] mainLogger main - Process ended! it took: 2.47 min
+2024-04-29 23:05:43,018 [INFO] mainLogger main - Process is started...
+2024-04-29 23:05:43,019 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 23:05:43,020 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 23:05:44,875 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 23:05:44,882 [INFO] mainLogger Thread-0 - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 23:05:44,882 [INFO] mainLogger Thread-1 - Opening folder /Users/omarenrique/Desktop/tests/Sample 2
+2024-04-29 23:05:44,885 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/showFormatName/2024-04-29/C4: folder was added
+2024-04-29 23:05:44,885 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/showFormatName/2024-04-29/C2: folder was added
+2024-04-29 23:05:44,894 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-29 23:05:44,894 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-29 23:06:07,989 [INFO] mainLogger main - Process is started...
+2024-04-29 23:06:07,990 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 23:06:07,990 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 23:06:09,407 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 23:06:09,415 [INFO] mainLogger Thread-0 - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 23:06:09,415 [INFO] mainLogger Thread-1 - Opening folder /Users/omarenrique/Desktop/tests/Sample 2
+2024-04-29 23:06:09,417 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/showFormatName/2024-04-29/C4: folder was added
+2024-04-29 23:06:09,417 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/showFormatName/2024-04-29/C2: folder was added
+2024-04-29 23:06:09,428 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-29 23:06:09,428 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-29 23:06:55,411 [INFO] mainLogger Thread-1 - Done, it took: 45sec
+2024-04-29 23:06:55,412 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/showFormatName/2024-04-29/C1: folder was added
+2024-04-29 23:06:55,415 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-29 23:06:55,723 [INFO] mainLogger Thread-0 - Done, it took: 46sec
+2024-04-29 23:06:55,723 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/showFormatName/2024-04-29/C3: folder was added
+2024-04-29 23:06:55,725 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-29 23:07:38,973 [INFO] mainLogger Thread-1 - Done, it took: 43sec
+2024-04-29 23:07:40,637 [INFO] mainLogger Thread-0 - Done, it took: 44sec
+2024-04-29 23:07:40,638 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/showFormatName/2024-04-29/C1: folder was added
+2024-04-29 23:07:40,640 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-29 23:08:09,314 [INFO] mainLogger Thread-0 - Done, it took: 28sec
+2024-04-29 23:08:09,314 [INFO] mainLogger main - Process ended! it took: 2.02 min
+2024-04-29 23:08:09,314 [INFO] mainLogger main - Process ended! it took: 2.02 min

@@ -1,0 +1,23 @@
+
+g	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÑîÔŞò1
+m	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âığ­8ÒîÔŞò1
+m	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âığ­8ÒîÔŞò1
+l	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¶j8ÒîÔŞò1
+r	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º‹¼¶úÿÿÿÿ8ÒîÔŞò1
+m	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜º¿ç8ÒîÔŞò1
+m	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Éˆ•8ÒîÔŞò1
+7
+java:S1220""Move this file to a named package.8ÔîÔŞò1
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ì³¾³8ŞîÔŞò1
+]	java:S125"<This block of commented-out lines of code should be removed.(ı¶¥àıÿÿÿÿ8ßîÔŞò1
+B
+java:S1075!"&Remove this hard-coded path-delimiter.(™¸ªR8ßîÔŞò1
+B
+java:S1075!"&Remove this hard-coded path-delimiter.(™¸ªR8ßîÔŞò1
+o	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Âàşÿÿÿÿ8ßîÔŞò1
+{
+java:S2142a"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ò¶È8âîÔŞò1
+j	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âığ­8ãîÔŞò1
+X
+java:S1068"6Remove this unused "outputFolderToCopy" private field.(„á’ ÿÿÿÿÿ8›ÛŞò1

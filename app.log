@@ -1,0 +1,132 @@
+2024-04-29 23:56:57,938 [INFO] mainLogger main - Process is started...
+2024-04-29 23:56:57,939 [INFO] mainLogger main - Destination format and folder:
+2024-04-29 23:56:57,939 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-29 23:57:04,422 [INFO] mainLogger main - You choose: SHOW
+2024-04-29 23:57:04,430 [INFO] mainLogger Thread-0 - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-29 23:57:04,431 [INFO] mainLogger Thread-1 - Opening folder /Users/omarenrique/Desktop/tests/Sample 2
+2024-04-29 23:57:04,433 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C2: folder was added
+2024-04-29 23:57:04,433 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C4: folder was added
+2024-04-29 23:57:04,444 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-29 23:57:04,444 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-29 23:57:49,247 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-04-29 23:57:49,301 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-29 23:57:49,421 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-29 23:57:49,421 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-04-29 23:57:49,423 [INFO] mainLogger Thread-1 - Done, it took: 44sec
+2024-04-29 23:57:49,423 [INFO] mainLogger Thread-0 - Done, it took: 44sec
+2024-04-29 23:57:49,423 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C1: folder was added
+2024-04-29 23:57:49,423 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C3: folder was added
+2024-04-29 23:57:49,425 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-29 23:57:49,425 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-29 23:58:31,437 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-04-29 23:58:31,568 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-04-29 23:58:31,568 [INFO] mainLogger Thread-1 - Done, it took: 42sec
+2024-04-29 23:58:33,385 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-29 23:58:33,505 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-29 23:58:33,505 [INFO] mainLogger Thread-0 - Done, it took: 44sec
+2024-04-29 23:58:33,505 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-29/C1: folder was added
+2024-04-29 23:58:33,507 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-29 23:59:01,910 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-29 23:59:02,032 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-29 23:59:02,032 [INFO] mainLogger Thread-0 - Done, it took: 28sec
+2024-04-29 23:59:02,033 [INFO] mainLogger main - Process ended! it took: 2.07 min
+2024-04-29 23:59:02,033 [INFO] mainLogger main - File copied successfully.
+2024-04-30 00:06:01,482 [INFO] mainLogger main - Process is started...
+2024-04-30 00:06:01,483 [INFO] mainLogger main - Destination format and folder:
+2024-04-30 00:06:01,483 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-30 00:06:06,348 [INFO] mainLogger main - You choose: SHOW
+2024-04-30 00:06:06,353 [INFO] mainLogger Thread-0 - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-30 00:06:06,353 [INFO] mainLogger Thread-1 - Opening folder /Users/omarenrique/Desktop/tests/Sample 2
+2024-04-30 00:06:06,354 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C2: folder was added
+2024-04-30 00:06:06,354 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C4: folder was added
+2024-04-30 00:06:06,360 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:06:06,360 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-30 00:06:51,284 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-04-30 00:06:51,289 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:06:51,468 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:06:51,468 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-04-30 00:06:51,470 [INFO] mainLogger Thread-0 - Done, it took: 45sec
+2024-04-30 00:06:51,470 [INFO] mainLogger Thread-1 - Done, it took: 45sec
+2024-04-30 00:06:51,470 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C3: folder was added
+2024-04-30 00:06:51,470 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C1: folder was added
+2024-04-30 00:06:51,472 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-30 00:06:51,472 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:07:33,388 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-04-30 00:07:33,517 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-04-30 00:07:33,517 [INFO] mainLogger Thread-1 - Done, it took: 42sec
+2024-04-30 00:07:35,454 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:07:35,574 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:07:35,574 [INFO] mainLogger Thread-0 - Done, it took: 44sec
+2024-04-30 00:07:35,575 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C1: folder was added
+2024-04-30 00:07:35,576 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:08:03,960 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:08:04,083 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:08:04,083 [INFO] mainLogger Thread-0 - Done, it took: 28sec
+2024-04-30 00:08:04,083 [INFO] mainLogger main - Process ended! it took: 2.03 min
+2024-04-30 00:08:04,084 [INFO] mainLogger main - File copied successfully.
+2024-04-30 00:15:45,593 [INFO] mainLogger main - Process is started...
+2024-04-30 00:15:45,594 [INFO] mainLogger main - Destination format and folder:
+2024-04-30 00:15:45,594 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-30 00:15:47,724 [INFO] mainLogger main - You choose: SHOW
+2024-04-30 00:15:47,732 [INFO] mainLogger Thread-0 - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-30 00:15:47,733 [INFO] mainLogger Thread-1 - Opening folder /Users/omarenrique/Desktop/tests/Sample 2
+2024-04-30 00:15:47,735 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C2: folder was added
+2024-04-30 00:15:47,735 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C4: folder was added
+2024-04-30 00:15:47,752 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-30 00:15:47,752 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:16:32,428 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-04-30 00:16:32,623 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-04-30 00:16:32,626 [INFO] mainLogger Thread-1 - Done, it took: 44sec
+2024-04-30 00:16:32,626 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C1: folder was added
+2024-04-30 00:16:32,628 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-30 00:16:32,662 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:16:32,792 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:16:32,792 [INFO] mainLogger Thread-0 - Done, it took: 45sec
+2024-04-30 00:16:32,792 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C3: folder was added
+2024-04-30 00:16:32,794 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:17:14,783 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-04-30 00:17:14,923 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-04-30 00:17:14,923 [INFO] mainLogger Thread-1 - Done, it took: 42sec
+2024-04-30 00:17:16,960 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:17:17,083 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:17:17,083 [INFO] mainLogger Thread-0 - Done, it took: 44sec
+2024-04-30 00:17:17,083 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C1: folder was added
+2024-04-30 00:17:17,085 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:17:45,415 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:17:45,538 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:17:45,538 [INFO] mainLogger Thread-0 - Done, it took: 28sec
+2024-04-30 00:17:45,538 [INFO] mainLogger main - Process ended! it took: 1.98 min
+2024-04-30 00:19:02,747 [INFO] mainLogger main - File copied successfully.
+2024-04-30 00:27:32,839 [INFO] mainLogger main - Process is started...
+2024-04-30 00:27:32,840 [INFO] mainLogger main - Destination format and folder:
+2024-04-30 00:27:32,840 [INFO] mainLogger main - 1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW
+2024-04-30 00:27:35,758 [INFO] mainLogger main - You choose: SHOW
+2024-04-30 00:27:35,766 [INFO] mainLogger Thread-0 - Opening folder /Users/omarenrique/Desktop/tests/SAMPLE VIDEO
+2024-04-30 00:27:35,767 [INFO] mainLogger Thread-1 - Opening folder /Users/omarenrique/Desktop/tests/Sample 2
+2024-04-30 00:27:35,769 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C4: folder was added
+2024-04-30 00:27:35,769 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C2: folder was added
+2024-04-30 00:27:35,779 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:27:35,779 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-30 00:28:20,660 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:28:20,803 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-04-30 00:28:20,842 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:28:20,845 [INFO] mainLogger Thread-0 - Done, it took: 45sec
+2024-04-30 00:28:20,846 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C3: folder was added
+2024-04-30 00:28:20,847 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:28:20,930 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-04-30 00:28:20,930 [INFO] mainLogger Thread-1 - Done, it took: 45sec
+2024-04-30 00:28:20,931 [INFO] mainLogger Thread-1 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C1: folder was added
+2024-04-30 00:28:20,932 [INFO] mainLogger Thread-1 - Converting started.
+2024-04-30 00:29:03,243 [INFO] mainLogger Thread-1 - Checking for errors...
+2024-04-30 00:29:03,374 [INFO] mainLogger Thread-1 - Everything is alright!
+2024-04-30 00:29:03,375 [INFO] mainLogger Thread-1 - Done, it took: 42sec
+2024-04-30 00:29:05,168 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:29:05,288 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:29:05,289 [INFO] mainLogger Thread-0 - Done, it took: 44sec
+2024-04-30 00:29:05,289 [INFO] mainLogger Thread-0 - /Users/omarenrique/Desktop/tests/Converted/SHOW/2024-04-30/C1: folder was added
+2024-04-30 00:29:05,290 [INFO] mainLogger Thread-0 - Converting started.
+2024-04-30 00:29:33,686 [INFO] mainLogger Thread-0 - Checking for errors...
+2024-04-30 00:29:33,808 [INFO] mainLogger Thread-0 - Everything is alright!
+2024-04-30 00:29:33,808 [INFO] mainLogger Thread-0 - Done, it took: 28sec
+2024-04-30 00:29:33,809 [INFO] mainLogger main - Process ended! it took: 2.00 min
+2024-04-30 00:29:34,253 [INFO] mainLogger main - Folder copied!
