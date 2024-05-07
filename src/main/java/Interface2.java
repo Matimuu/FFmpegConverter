@@ -10,22 +10,24 @@ import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+import static java.lang.Long.sum;
+
 /**
  * @author Mendoza Perez Omar Enrique
  * @date 2024/04/28 15:01
  */
 public class Interface2 {
     static long startTime = System.nanoTime();
-    private static final Logger logger = LogManager.getLogger("mainLogger");
+
     private static final Scanner scanner = new Scanner(System.in);
     private static String formatName;
     private static File outputFolderToCopy;
     private static File destinationFilePath;
+    private static Logger logger;
 
     public static void main(String[] args) {
-        logger.info("Process is started...");
-        logger.info("Destination format and folder:");
-        logger.info("1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW");
+        System.out.println("Destination format and folder:");
+        System.out.println("1.LIVE 2.PREVIA 3.CHAMPIONS 4.SHOW");
 
         int index = scanner.nextInt();
         formatName = switch (index) {
@@ -35,24 +37,25 @@ public class Interface2 {
             case 4 -> Format.SHOW.getName();
             case 9 -> Format.TEST.getName();
             default -> {
-                logger.error("Unexpected value: " + index);
                 throw new IllegalStateException();
             }
         };
         outputFolderToCopy = new File("D:/VAMOS/BACKUP/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
         destinationFilePath = new File("L:/Shared drives/Vamos.Show (videos)/" + formatName + File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
 
+        System.setProperty("log.path", outputFolderToCopy.getAbsolutePath());
+        logger = LogManager.getLogger("mainLogger");
         logger.info("You choose: " + formatName);
 
         List<File> inputFolders = new ArrayList<>();
-        inputFolders.add(new File("C:/Users/onAir/Desktop/test/SAMPLE 1"));
-       // inputFolders.add(new File("N:/"));
-       // inputFolders.add(new File("M:/"));
-       // inputFolders.add(new File("O:/"));
-       // inputFolders.add(new File("P:/"));
-       // inputFolders.add(new File("G:/"));
-       // inputFolders.add(new File("J:/"));
-       // inputFolders.add(new File("Q:/"));
+//        inputFolders.add(new File("C:/Users/onAir/Desktop/test/SAMPLE 1"));
+         inputFolders.add(new File("N:/"));
+         inputFolders.add(new File("M:/"));
+         inputFolders.add(new File("O:/"));
+         inputFolders.add(new File("P:/"));
+         inputFolders.add(new File("G:/"));
+        // inputFolders.add(new File("J:/"));
+         inputFolders.add(new File("Q:/"));
 
         List<Thread> threads = new ArrayList<>();
         for (File inputFolder : inputFolders) {
@@ -70,22 +73,11 @@ public class Interface2 {
             }
         }
         Copy();
-        logger.info(String.format("Process ended! it took: %.2f min", ((System.nanoTime() - startTime) / 1000_000_000 / 60.0)));
+        logger.info(String.format("Process ended! it took: %.2f", ((System.nanoTime() - startTime) / 1000_000_000 / 60 / 60.)));
     }
-    private static void saveLog() {
-        try{
-            Files.copy(Path.of(new SimpleDateFormat("yyyy-MM-dd").format(new Date())+".log"), outputFolderToCopy.toPath());
-            logger.info("Log file copied");
-        } catch (IOException e) {
-            logger.error("Log file lost.");
-        }
 
-    }
     private static void Copy() {
         logger.info("Copying started.");
-        saveLog();
-
-
 
         try {
             // Create destination directory if it doesn't exist
@@ -99,15 +91,39 @@ public class Interface2 {
                         Path destinationPath = Paths.get(destinationFilePath.getAbsolutePath(), outputFolderToCopy.toPath().relativize(sourcePath).toString());
                         try {
                             Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
+                            logger.info("Folder copied successfully!");
                         } catch (IOException e) {
                             logger.error("Error copying file: " + e.getMessage());
                         }
                     });
-
-            logger.info("Folder copied successfully!");
+            if (checkCopy(outputFolderToCopy.toPath()) == checkCopy(destinationFilePath.toPath())) {
+                logger.info("Copied folders are the same.");
+            } else {
+                logger.info("Copied folders are not the same.");
+                Copy();
+            }
         } catch (IOException e) {
-            logger.error("Error copying folder: " + e.getMessage());
+            logger.error("Error copying folders: " + e.getMessage());
         }
     }
 
+    private static long checkCopy(Path path) {
+        long size = 0;
+        try {
+            size = Files.walk(path)
+                    .filter(Files::isRegularFile)
+                    .mapToLong(f -> {
+                        try{
+                            return Files.size(f);
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
+                    })
+                        .sum();
+        } catch (IOException e) {
+            logger.error("Folder not exist");
+            throw new RuntimeException(e);
+        }
+        return size/1_000_000;
+    }
 }

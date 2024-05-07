@@ -94,7 +94,7 @@ public class Converter2 implements Runnable {
             int exitCode = process.waitFor();
 
             if (exitCode == 0) {
-                logger.info("Done, it took: " + (System.nanoTime() - startTime) / 1000_000_000 + "sec");
+                logger.info(String.format("Done, it took: %.2f", (System.nanoTime() - startTime) / 1000_000_000 / 60 / 60.));
                 Checking(f, new File(outputFile));
             }
         } catch (IOException e) {
@@ -121,7 +121,7 @@ public class Converter2 implements Runnable {
                 logger.info("Another converting for this file: " + ORGFile.getName());
                 ffmpegCmd(ORGFile);
             } else {
-                logger.info("Everything is alright!");
+                logger.info("Everything is alright!\n");
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
