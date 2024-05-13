@@ -8,6 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 import static java.lang.Long.sum;
@@ -24,6 +25,7 @@ public class Interface2 {
     private static File outputFolderToCopy;
     private static File destinationFilePath;
     private static Logger logger;
+    private static File OBSFOLDER = new File("C:/Users/onAir/Videos/");
 
     public static void main(String[] args) {
         System.out.println("Destination format and folder:");
@@ -72,23 +74,24 @@ public class Interface2 {
                 logger.error("Error joining thread: " + e.getMessage());
             }
         }
-        Copy();
+        Copy(outputFolderToCopy, destinationFilePath);
+
         logger.info(String.format("Process ended! it took: %.2f", ((System.nanoTime() - startTime) / 1000_000_000 / 60 / 60.)));
     }
 
-    private static void Copy() {
+    private static void Copy(File folderToCopy, File destinationFolder) {
         logger.info("Copying started.");
 
         try {
             // Create destination directory if it doesn't exist
-            if (!destinationFilePath.exists()) {
-                destinationFilePath.mkdirs();
+            if (!destinationFolder.exists()) {
+                destinationFolder.mkdirs();
             }
 
             // Iterate through files in the source directory and copy them to the destination directory
-            Files.walk(outputFolderToCopy.toPath())
+            Files.walk(folderToCopy.toPath())
                     .forEach(sourcePath -> {
-                        Path destinationPath = Paths.get(destinationFilePath.getAbsolutePath(), outputFolderToCopy.toPath().relativize(sourcePath).toString());
+                        Path destinationPath = Paths.get(destinationFolder.getAbsolutePath(), folderToCopy.toPath().relativize(sourcePath).toString());
                         try {
                             Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
                             logger.info("Folder copied successfully!");
@@ -96,15 +99,18 @@ public class Interface2 {
                             logger.error("Error copying file: " + e.getMessage());
                         }
                     });
-            if (checkCopy(outputFolderToCopy.toPath()) == checkCopy(destinationFilePath.toPath())) {
+            if (checkCopy(folderToCopy.toPath()) == checkCopy(destinationFolder.toPath())) {
                 logger.info("Copied folders are the same.");
             } else {
                 logger.info("Copied folders are not the same.");
-                Copy();
+                Copy(folderToCopy, destinationFolder);
             }
         } catch (IOException e) {
             logger.error("Error copying folders: " + e.getMessage());
         }
+    }
+    private static void CopyObsFile() {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("");
     }
 
     private static long checkCopy(Path path) {

@@ -24,12 +24,12 @@ public class Converter2 implements Runnable {
     private String outputFile;
     private File outputFolder = new File("/D:/VAMOS/BACKUP/");
     private File outputFolderToCopy;
-        private String convertingFormat = "hevc_nvenc";
+    private String convertingFormat = "hevc_nvenc";
 //    private String convertingFormat = "libx265";
 
     public Converter2(File inputFolder, String showFormatName) {
         this.inputFolder = inputFolder;
-        this.outputFolder = new File(outputFolder.getAbsolutePath() + "/" + showFormatName + "/" + simpleDateFormat.format(currentDate));
+        this.outputFolder = new File(outputFolder.getAbsolutePath() + File.separator + showFormatName + File.separator + simpleDateFormat.format(currentDate));
         outputFolderToCopy = outputFolder;
     }
 
@@ -49,7 +49,7 @@ public class Converter2 implements Runnable {
         }
         Arrays.stream(filesFromFolder).forEach(file -> {
             inputFile = file.getAbsoluteFile();
-            File outputPath = new File(outputFolder.getAbsolutePath() + "/C" + inputFile.getName().substring(0, 1));
+            File outputPath = new File(outputFolder.getAbsolutePath() + File.separator + "C" + inputFile.getName().substring(0, 1));
 
             outputPath.mkdirs();
 
@@ -127,6 +127,7 @@ public class Converter2 implements Runnable {
             throw new RuntimeException(e);
         }
     }
+
     @Override
     public void run() {
         ScrollingThroughFiles();
